@@ -2750,6 +2750,72 @@ Source: http://eshop.phoenixcontact.com .. 1751251.pdf</description>
 <rectangle x1="0.7112" y1="-1.2954" x2="1.1684" y2="-0.7112" layer="51"/>
 <rectangle x1="-1.1684" y1="-1.2954" x2="-0.7112" y2="-0.7112" layer="51"/>
 </package>
+<package name="R1206">
+<description>&lt;b&gt;Chip RESISTOR, 1206 EIA (3216 Metric)&lt;/b&gt;</description>
+<wire x1="0.9525" y1="-0.8128" x2="-0.9652" y2="-0.8128" width="0.1524" layer="51"/>
+<wire x1="0.9525" y1="0.8128" x2="-0.9652" y2="0.8128" width="0.1524" layer="51"/>
+<wire x1="-2.3" y1="1.15" x2="2.3" y2="1.15" width="0.0508" layer="39"/>
+<wire x1="2.3" y1="1.15" x2="2.3" y2="-1.15" width="0.0508" layer="39"/>
+<wire x1="2.3" y1="-1.15" x2="-2.3" y2="-1.15" width="0.0508" layer="39"/>
+<wire x1="-2.3" y1="-1.15" x2="-2.3" y2="1.15" width="0.0508" layer="39"/>
+<smd name="2" x="1.49" y="0" dx="1.12" dy="1.8" layer="1"/>
+<smd name="1" x="-1.49" y="0" dx="1.12" dy="1.8" layer="1"/>
+<text x="-1.27" y="1.27" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1.27" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-1.6891" y1="-0.8763" x2="-0.9525" y2="0.8763" layer="51"/>
+<rectangle x1="0.9525" y1="-0.8763" x2="1.6891" y2="0.8763" layer="51"/>
+<rectangle x1="-0.3" y1="-0.7" x2="0.3" y2="0.7" layer="35"/>
+</package>
+<package name="DIODES_SBR2U30P1-7_0">
+<description>2.0A SBR SUPER BARRIER RECTIFIER POWERDI123</description>
+<wire x1="-1.4" y1="-0.89" x2="-1.4" y2="0.89" width="0.15" layer="51"/>
+<wire x1="-1.4" y1="0.89" x2="1.4" y2="0.89" width="0.15" layer="51"/>
+<wire x1="1.4" y1="0.89" x2="1.4" y2="-0.89" width="0.15" layer="51"/>
+<wire x1="1.4" y1="-0.89" x2="-1.4" y2="-0.89" width="0.15" layer="51"/>
+<wire x1="-2.15" y1="-1.065" x2="-2.15" y2="1.065" width="0.1" layer="39"/>
+<wire x1="-2.15" y1="1.065" x2="2.15" y2="1.065" width="0.1" layer="39"/>
+<wire x1="2.15" y1="1.065" x2="2.15" y2="-1.065" width="0.1" layer="39"/>
+<wire x1="2.15" y1="-1.065" x2="-2.15" y2="-1.065" width="0.1" layer="39"/>
+<wire x1="1.4" y1="1.15" x2="-1.4" y2="1.15" width="0.15" layer="21"/>
+<wire x1="1.4" y1="-1.15" x2="-1.4" y2="-1.15" width="0.15" layer="21"/>
+<text x="-4.025" y="-0.325" size="1" layer="25">&gt;NAME</text>
+<circle x="2.61" y="0" radius="0.25" width="0" layer="21"/>
+<smd name="2" x="-1.525" y="0" dx="1.05" dy="1.5" layer="1"/>
+<smd name="1" x="0.85" y="0" dx="2.4" dy="1.5" layer="1"/>
+</package>
+<package name="MURATA_NFM21PC105B1A3D_0">
+<description>Large Current 3 Terminals Low ESL Chip Multilayer Ceramic Capacitors (EMIFIL) for General Purpose</description>
+<wire x1="-1" y1="-0.625" x2="-1" y2="0.625" width="0.15" layer="51"/>
+<wire x1="-1" y1="0.625" x2="1" y2="0.625" width="0.15" layer="51"/>
+<wire x1="1" y1="0.625" x2="1" y2="-0.625" width="0.15" layer="51"/>
+<wire x1="1" y1="-0.625" x2="-1" y2="-0.625" width="0.15" layer="51"/>
+<wire x1="-1.4" y1="-1.05" x2="-1.4" y2="1.05" width="0.1" layer="39"/>
+<wire x1="-1.4" y1="1.05" x2="1.4" y2="1.05" width="0.1" layer="39"/>
+<wire x1="1.4" y1="1.05" x2="1.4" y2="-1.05" width="0.1" layer="39"/>
+<wire x1="1.4" y1="-1.05" x2="-1.4" y2="-1.05" width="0.1" layer="39"/>
+<wire x1="-0.775" y1="0.825" x2="-0.975" y2="0.825" width="0.15" layer="21"/>
+<wire x1="0.987" y1="0.825" x2="0.787" y2="0.825" width="0.15" layer="21"/>
+<wire x1="0.996" y1="-0.825" x2="0.796" y2="-0.825" width="0.15" layer="21"/>
+<wire x1="-0.801" y1="-0.814" x2="-1.001" y2="-0.814" width="0.15" layer="21"/>
+<text x="-1.675" y="1.4" size="1" layer="25">&gt;NAME</text>
+<circle x="-1.875" y="0" radius="0.25" width="0" layer="21"/>
+<smd name="1" x="-1" y="0" dx="0.6" dy="0.8" layer="1"/>
+<smd name="3" x="1" y="0" dx="0.6" dy="0.8" layer="1"/>
+<smd name="2" x="0" y="-0.625" dx="0.6" dy="0.65" layer="1"/>
+<smd name="2-2" x="0" y="0.625" dx="0.6" dy="0.65" layer="1"/>
+</package>
+<package name="C1206K" urn="urn:adsk.eagle:footprint:23189/1">
+<description>&lt;b&gt;Ceramic Chip Capacitor KEMET 1206 reflow solder&lt;/b&gt;&lt;p&gt;
+Metric Code Size 3216</description>
+<wire x1="-1.525" y1="0.75" x2="1.525" y2="0.75" width="0.1016" layer="51"/>
+<wire x1="1.525" y1="-0.75" x2="-1.525" y2="-0.75" width="0.1016" layer="51"/>
+<smd name="1" x="-1.5" y="0" dx="1.5" dy="2" layer="1"/>
+<smd name="2" x="1.5" y="0" dx="1.5" dy="2" layer="1"/>
+<text x="-1.6" y="1.1" size="1.016" layer="25">&gt;NAME</text>
+<text x="-1.6" y="-2.1" size="1.016" layer="27">&gt;VALUE</text>
+<rectangle x1="-1.6" y1="-0.8" x2="-1.1" y2="0.8" layer="51"/>
+<rectangle x1="1.1" y1="-0.8" x2="1.6" y2="0.8" layer="51"/>
+</package>
 </packages>
 <packages3d>
 <package3d name="QFP50P2200X2200X160-144" urn="urn:adsk.eagle:package:7148528/1" type="model">
@@ -4218,6 +4284,51 @@ Source: http://eshop.phoenixcontact.com .. 1751251.pdf</description>
 <pin name="A1" x="-5.08" y="0" visible="off" length="point" direction="pas"/>
 <pin name="C2" x="5.08" y="0" visible="off" length="point" direction="pas" rot="R180"/>
 <pin name="C1A2" x="0" y="2.54" visible="off" length="short" direction="pas" rot="R270"/>
+</symbol>
+<symbol name="FUSE">
+<wire x1="-5.08" y1="0" x2="-3.556" y2="1.524" width="0.254" layer="94"/>
+<wire x1="0" y1="-1.524" x2="-2.54" y2="1.524" width="0.254" layer="94"/>
+<wire x1="0.889" y1="-1.4986" x2="2.4892" y2="0" width="0.254" layer="94"/>
+<wire x1="-3.5992" y1="1.4912" x2="-3.048" y2="1.7272" width="0.254" layer="94" curve="-46.337037" cap="flat"/>
+<wire x1="-3.048" y1="1.7272" x2="-2.496" y2="1.491" width="0.254" layer="94" curve="-46.403624" cap="flat"/>
+<wire x1="0.4572" y1="-1.778" x2="0.8965" y2="-1.4765" width="0.254" layer="94" curve="63.169357" cap="flat"/>
+<wire x1="-0.0178" y1="-1.508" x2="0.4572" y2="-1.7778" width="0.254" layer="94" curve="64.986119" cap="flat"/>
+<text x="-5.08" y="2.54" size="1.778" layer="95">&gt;NAME</text>
+<text x="-5.08" y="-3.81" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="1" x="-7.62" y="0" visible="off" length="short" direction="pas" function="dot" swaplevel="1"/>
+<pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" function="dot" swaplevel="1" rot="R180"/>
+</symbol>
+<symbol name="DIODES_SBR2U30P1-7_0_0">
+<description>2.0A SBR SUPER BARRIER RECTIFIER POWERDI123</description>
+<wire x1="-2.54" y1="2.54" x2="-2.54" y2="-2.54" width="0.508" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="2.54" y2="-2.54" width="0.508" layer="94"/>
+<wire x1="-2.54" y1="2.54" x2="2.54" y2="0" width="0.508" layer="94"/>
+<wire x1="-2.54" y1="-2.54" x2="2.54" y2="0" width="0.508" layer="94"/>
+<text x="-4.064" y="5.588" size="2.54" layer="95" align="top-left">&gt;NAME</text>
+<pin name="ANODE" x="-7.62" y="0" visible="pad" length="middle"/>
+<pin name="CATHODE" x="7.62" y="0" visible="pad" length="middle" rot="R180"/>
+</symbol>
+<symbol name="MURATA_NFM21PC105B1A3D_0_0">
+<description>Large Current 3 Terminals Low ESL Chip Multilayer Ceramic Capacitors (EMIFIL) for General Purpose</description>
+<wire x1="5.08" y1="0" x2="20.32" y2="0" width="0.508" layer="94"/>
+<wire x1="6.604" y1="2.766" x2="19.304" y2="2.766" width="0.254" layer="94" curve="62.776333"/>
+<wire x1="6.604" y1="-2.54" x2="19.304" y2="-2.54" width="0.254" layer="94" curve="-45.23973"/>
+<wire x1="12.7" y1="-5.08" x2="12.7" y2="-2.54" width="0.508" layer="94"/>
+<wire x1="12.7" y1="-1.524" x2="12.7" y2="-2.794" width="0.508" layer="94"/>
+<text x="5.08" y="7.62" size="2.54" layer="95" align="top-left">&gt;NAME</text>
+<pin name="INPUT" x="0" y="0" visible="pad" length="middle"/>
+<pin name="OUTPUT" x="25.4" y="0" visible="pad" length="middle" rot="R180"/>
+<pin name="GND" x="15.24" y="-7.62" visible="pad" length="point"/>
+</symbol>
+<symbol name="C-1206">
+<wire x1="-2.54" y1="0" x2="2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="-1.016" x2="0" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="0" y1="-1" x2="2.4892" y2="-1.8542" width="0.254" layer="94" curve="-37.878202"/>
+<wire x1="-2.4668" y1="-1.8504" x2="0" y2="-1.0161" width="0.254" layer="94" curve="-37.373024"/>
+<text x="1.016" y="0.635" size="1.778" layer="95">&gt;NAME</text>
+<text x="1.016" y="-4.191" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="1" x="0" y="2.54" visible="off" length="short" direction="pas" swaplevel="1" rot="R270"/>
+<pin name="2" x="0" y="-5.08" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -6383,6 +6494,117 @@ Source: http://eshop.phoenixcontact.com .. 1751251.pdf</description>
 <attribute name="MPN" value="BAT54S" constant="no"/>
 <attribute name="OCTOPART_URL" value="https://octopart.com/bat54s-on+semiconductor-18638425?r=sp&amp;s=0oE-1-iASiqsaei8bbDRSA" constant="no"/>
 </technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="NANOSMDC035F-2">
+<description>PTC Resettable Fuse 0.35A(hold) 0.75A(trip) 16VDC 20A 0.6W 0.1s 0.45Ohm SMD Solder Pad 1206</description>
+<gates>
+<gate name="G$1" symbol="FUSE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="120" package="R1206">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MFN" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="NANOSMDC035F-2" constant="no"/>
+<attribute name="OCTOPART_URL" value="https://octopart.com/nanosmdc035f-2-littelfuse-74215052?r=sp&amp;s=rfNZOPvgSJy5H1V-bbPI5Q#" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="DIODES_SBR2U30P1-7" prefix="D">
+<description>2.0A SBR SUPER BARRIER RECTIFIER POWERDI123</description>
+<gates>
+<gate name="G$0" symbol="DIODES_SBR2U30P1-7_0_0" x="0" y="0"/>
+</gates>
+<devices>
+<device name="DIODES_SBR2U30P1-7_0_0" package="DIODES_SBR2U30P1-7_0">
+<connects>
+<connect gate="G$0" pin="ANODE" pad="2"/>
+<connect gate="G$0" pin="CATHODE" pad="1"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="AVERAGE_RECTIFIED_OUTPUT_CURRENT" value="2A"/>
+<attribute name="CENTROID_NOT_SPECIFIED" value="No"/>
+<attribute name="DATASHEET" value="https://www.diodes.com/assets/Datasheets/SBR2U30P1.pdf"/>
+<attribute name="DC_BLOCKING_VOLTAGE" value="30V"/>
+<attribute name="DIGIKEY_DESCRIPTION" value="DIODE SBR 30V 2A POWERDI123"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="SBR2U30P1DICT-ND"/>
+<attribute name="LEAD_FREE" value="yes"/>
+<attribute name="MF" value="Diodes"/>
+<attribute name="MFN" value="Diodes" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="621-SBR2U30P1-7"/>
+<attribute name="MPN" value="SBR2U30P1-7"/>
+<attribute name="OCTOPART_URL" value="https://octopart.com/sbr2u30p1-7-diodes+inc.-13160632?r=sp&amp;s=T9EzcoJOQBe5XnC2-oZtAA" constant="no"/>
+<attribute name="PACKAGE" value="POWERDI123"/>
+<attribute name="PEAK_REPETITIVE_REVERSE_VOLTAGE" value="30V"/>
+<attribute name="PREFIX" value="D"/>
+<attribute name="RMS_REVERSE_VOLTAGE" value="21V"/>
+<attribute name="ROHS" value="yes"/>
+<attribute name="TEMPERATURE_RANGE_HIGH" value="+150°C"/>
+<attribute name="TEMPERATURE_RANGE_LOW" value="-65°C"/>
+<attribute name="WORKING_PEAK_REVERSE_VOLTAGE" value="30V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MURATA_NFM21PC105B1A3D" prefix="C">
+<description>Large Current 3 Terminals Low ESL Chip Multilayer Ceramic Capacitors (EMIFIL) for General Purpose</description>
+<gates>
+<gate name="G$0" symbol="MURATA_NFM21PC105B1A3D_0_0" x="0" y="0"/>
+</gates>
+<devices>
+<device name="MURATA_NFM21PC105B1A3D_0_0" package="MURATA_NFM21PC105B1A3D_0">
+<connects>
+<connect gate="G$0" pin="GND" pad="2 2-2"/>
+<connect gate="G$0" pin="INPUT" pad="1"/>
+<connect gate="G$0" pin="OUTPUT" pad="3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="CAPACITANCE" value="1µF"/>
+<attribute name="CENTROID_NOT_SPECIFIED" value="No"/>
+<attribute name="DATASHEET" value="http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/NFM21PC105B1A3-01.pdf"/>
+<attribute name="DIGIKEY_DESCRIPTION" value="CAP FEEDTHRU 1UF 20% 10V 0805"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="490-6980-1-ND"/>
+<attribute name="LEAD_FREE" value="yes"/>
+<attribute name="MFN" value="Murata"/>
+<attribute name="MOUSER_PART_NUMBER" value="81-NFM21PC105B1A3D"/>
+<attribute name="MPN" value="NFM21PC105B1A3D"/>
+<attribute name="OCTOPART_URL" value="https://octopart.com/nfm21pc105b1a3d-murata-755259?r=sp&amp;s=hLu_FErQSKe5ZWS_KJzJIw#" constant="no"/>
+<attribute name="PACKAGE" value="0805 (2012 metric)"/>
+<attribute name="PREFIX" value="C"/>
+<attribute name="ROHS" value="yes"/>
+<attribute name="TEMPERATURE_RANGE_HIGH" value="+85°C"/>
+<attribute name="TEMPERATURE_RANGE_LOW" value="-40°C"/>
+<attribute name="VOLTAGE" value=""/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="C-1206" prefix="C">
+<description>Cap Tant Solid SMD 1210</description>
+<gates>
+<gate name="G$1" symbol="C-0603" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="C1206K">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
