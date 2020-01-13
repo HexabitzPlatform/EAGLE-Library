@@ -4017,6 +4017,288 @@
 <vertex x="1.7" y="15.59"/>
 </polygon>
 </package>
+<package name="HEXABIT_17.32_X2_POWER_ONLY">
+<wire x1="8.66" y1="-15" x2="17.32" y2="0" width="0.1" layer="20"/>
+<wire x1="17.32" y1="0" x2="8.66" y2="15" width="0.1" layer="20"/>
+<wire x1="8.66" y1="15" x2="-8.66" y2="15" width="0.1" layer="20"/>
+<wire x1="-8.66" y1="15" x2="-17.32" y2="0" width="0.1" layer="20"/>
+<wire x1="-17.32" y1="0" x2="-8.66" y2="-15" width="0.1" layer="20"/>
+<smd name="PAD_PU12" x="16.52" y="0" dx="1" dy="1" layer="1" roundness="100" cream="no"/>
+<polygon width="0.1" layer="1">
+<vertex x="16.37" y="1.65" curve="120"/>
+<vertex x="16.37" y="-1.65"/>
+<vertex x="17.32" y="0"/>
+</polygon>
+<smd name="PAD_PD12" x="16.52" y="0" dx="1" dy="1" layer="16" roundness="100" cream="no"/>
+<polygon width="0.1" layer="16">
+<vertex x="16.37" y="1.65" curve="120"/>
+<vertex x="16.37" y="-1.65"/>
+<vertex x="17.32" y="0"/>
+</polygon>
+<polygon width="0.1" layer="29">
+<vertex x="16.37" y="1.65" curve="120"/>
+<vertex x="16.37" y="-1.65"/>
+<vertex x="17.32" y="0"/>
+</polygon>
+<polygon width="0.1" layer="30">
+<vertex x="16.37" y="1.65" curve="120"/>
+<vertex x="16.37" y="-1.65"/>
+<vertex x="17.32" y="0"/>
+</polygon>
+<smd name="PAD_PU13" x="7.752" y="-15.072" dx="1" dy="1" layer="1" roundness="100" cream="no"/>
+<polygon width="0.1" layer="1">
+<vertex x="6.76" y="-15" curve="-120"/>
+<vertex x="9.61" y="-13.35"/>
+<vertex x="8.66" y="-15"/>
+</polygon>
+<smd name="PAD_PD13" x="7.752" y="-15.072" dx="1" dy="1" layer="16" roundness="100" cream="no"/>
+<polygon width="0.1" layer="16">
+<vertex x="6.76" y="-15" curve="-120"/>
+<vertex x="9.61" y="-13.35"/>
+<vertex x="8.66" y="-15"/>
+</polygon>
+<polygon width="0.1" layer="29">
+<vertex x="6.76" y="-15" curve="-120"/>
+<vertex x="9.61" y="-13.35"/>
+<vertex x="8.66" y="-15"/>
+</polygon>
+<polygon width="0.1" layer="30">
+<vertex x="6.76" y="-15" curve="-120"/>
+<vertex x="9.61" y="-13.35"/>
+<vertex x="8.66" y="-15"/>
+</polygon>
+<smd name="PAD_PU18" x="-7.752" y="-15.072" dx="1" dy="1" layer="1" roundness="100" cream="no"/>
+<polygon width="0.1" layer="1">
+<vertex x="-6.76" y="-15" curve="120"/>
+<vertex x="-9.61" y="-13.35"/>
+<vertex x="-8.66" y="-15"/>
+</polygon>
+<smd name="PAD_PD18" x="-7.752" y="-15.072" dx="1" dy="1" layer="16" roundness="100" cream="no"/>
+<polygon width="0.1" layer="16">
+<vertex x="-6.76" y="-15" curve="120"/>
+<vertex x="-9.61" y="-13.35"/>
+<vertex x="-8.66" y="-15"/>
+</polygon>
+<polygon width="0.1" layer="29">
+<vertex x="-6.76" y="-15" curve="120"/>
+<vertex x="-9.61" y="-13.35"/>
+<vertex x="-8.66" y="-15"/>
+</polygon>
+<polygon width="0.1" layer="30">
+<vertex x="-6.76" y="-15" curve="120"/>
+<vertex x="-9.61" y="-13.35"/>
+<vertex x="-8.66" y="-15"/>
+</polygon>
+<smd name="PAD_PU19" x="-16.52" y="0" dx="1" dy="1" layer="1" roundness="100" cream="no"/>
+<polygon width="0.1" layer="1">
+<vertex x="-16.37" y="1.65" curve="-120"/>
+<vertex x="-16.37" y="-1.65"/>
+<vertex x="-17.32" y="0"/>
+</polygon>
+<smd name="PAD_PD19" x="-16.52" y="0" dx="1" dy="1" layer="16" roundness="100" cream="no"/>
+<polygon width="0.1" layer="16">
+<vertex x="-16.37" y="1.65" curve="-120"/>
+<vertex x="-16.37" y="-1.65"/>
+<vertex x="-17.32" y="0"/>
+</polygon>
+<polygon width="0.1" layer="29">
+<vertex x="-16.37" y="1.65" curve="-120"/>
+<vertex x="-16.37" y="-1.65"/>
+<vertex x="-17.32" y="0"/>
+</polygon>
+<polygon width="0.1" layer="30">
+<vertex x="-16.37" y="1.65" curve="-120"/>
+<vertex x="-16.37" y="-1.65"/>
+<vertex x="-17.32" y="0"/>
+</polygon>
+<wire x1="-8.66" y1="-45" x2="8.66" y2="-45" width="0.1" layer="20"/>
+<wire x1="8.66" y1="-45" x2="17.32" y2="-30" width="0.1" layer="20"/>
+<wire x1="17.32" y1="-30" x2="8.66" y2="-15" width="0.1" layer="20"/>
+<wire x1="-8.66" y1="-15" x2="-17.32" y2="-30" width="0.1" layer="20"/>
+<wire x1="-17.32" y1="-30" x2="-8.66" y2="-45" width="0.1" layer="20"/>
+<polygon width="0.1" layer="1">
+<vertex x="9.61" y="-16.65" curve="-120"/>
+<vertex x="6.76" y="-15"/>
+<vertex x="8.66" y="-15"/>
+</polygon>
+<polygon width="0.1" layer="16">
+<vertex x="9.61" y="-16.65" curve="-120"/>
+<vertex x="6.76" y="-15"/>
+<vertex x="8.66" y="-15"/>
+</polygon>
+<polygon width="0.1" layer="29">
+<vertex x="9.61" y="-16.65" curve="-120"/>
+<vertex x="6.76" y="-15"/>
+<vertex x="8.66" y="-15"/>
+</polygon>
+<polygon width="0.1" layer="30">
+<vertex x="9.61" y="-16.65" curve="-120"/>
+<vertex x="6.76" y="-15"/>
+<vertex x="8.66" y="-15"/>
+</polygon>
+<smd name="PAD_PU14" x="16.52" y="-30" dx="1" dy="1" layer="1" roundness="100" cream="no"/>
+<polygon width="0.1" layer="1">
+<vertex x="16.37" y="-28.35" curve="120"/>
+<vertex x="16.37" y="-31.65"/>
+<vertex x="17.32" y="-30"/>
+</polygon>
+<smd name="PAD_PD14" x="16.52" y="-30" dx="1" dy="1" layer="16" roundness="100" cream="no"/>
+<polygon width="0.1" layer="16">
+<vertex x="16.37" y="-28.35" curve="120"/>
+<vertex x="16.37" y="-31.65"/>
+<vertex x="17.32" y="-30"/>
+</polygon>
+<polygon width="0.1" layer="29">
+<vertex x="16.37" y="-28.35" curve="120"/>
+<vertex x="16.37" y="-31.65"/>
+<vertex x="17.32" y="-30"/>
+</polygon>
+<polygon width="0.1" layer="30">
+<vertex x="16.37" y="-28.35" curve="120"/>
+<vertex x="16.37" y="-31.65"/>
+<vertex x="17.32" y="-30"/>
+</polygon>
+<smd name="PAD_PU15" x="8.26" y="-44.31" dx="1" dy="1" layer="1" roundness="100" cream="no"/>
+<polygon width="0.1" layer="1">
+<vertex x="6.76" y="-45" curve="-120"/>
+<vertex x="9.61" y="-43.35"/>
+<vertex x="8.66" y="-45"/>
+</polygon>
+<smd name="PAD_PD15" x="8.26" y="-44.31" dx="1" dy="1" layer="16" roundness="100" cream="no"/>
+<polygon width="0.1" layer="16">
+<vertex x="6.76" y="-45" curve="-120"/>
+<vertex x="9.61" y="-43.35"/>
+<vertex x="8.66" y="-45"/>
+</polygon>
+<polygon width="0.1" layer="29">
+<vertex x="6.76" y="-45" curve="-120"/>
+<vertex x="9.61" y="-43.35"/>
+<vertex x="8.66" y="-45"/>
+</polygon>
+<polygon width="0.1" layer="30">
+<vertex x="6.76" y="-45" curve="-120"/>
+<vertex x="9.61" y="-43.35"/>
+<vertex x="8.66" y="-45"/>
+</polygon>
+<smd name="PAD_PU16" x="-8.26" y="-44.31" dx="1" dy="1" layer="1" roundness="100" cream="no"/>
+<polygon width="0.1" layer="1">
+<vertex x="-6.76" y="-45" curve="120"/>
+<vertex x="-9.61" y="-43.35"/>
+<vertex x="-8.66" y="-45"/>
+</polygon>
+<smd name="PAD_PD16" x="-8.26" y="-44.31" dx="1" dy="1" layer="16" roundness="100" cream="no"/>
+<polygon width="0.1" layer="16">
+<vertex x="-6.76" y="-45" curve="120"/>
+<vertex x="-9.61" y="-43.35"/>
+<vertex x="-8.66" y="-45"/>
+</polygon>
+<polygon width="0.1" layer="29">
+<vertex x="-6.76" y="-45" curve="120"/>
+<vertex x="-9.61" y="-43.35"/>
+<vertex x="-8.66" y="-45"/>
+</polygon>
+<polygon width="0.1" layer="30">
+<vertex x="-6.76" y="-45" curve="120"/>
+<vertex x="-9.61" y="-43.35"/>
+<vertex x="-8.66" y="-45"/>
+</polygon>
+<smd name="PAD_PU17" x="-16.52" y="-30" dx="1" dy="1" layer="1" roundness="100" cream="no"/>
+<polygon width="0.1" layer="1">
+<vertex x="-16.37" y="-28.35" curve="-120"/>
+<vertex x="-16.37" y="-31.65"/>
+<vertex x="-17.32" y="-30"/>
+</polygon>
+<smd name="PAD_PD17" x="-16.52" y="-30" dx="1" dy="1" layer="16" roundness="100" cream="no"/>
+<polygon width="0.1" layer="16">
+<vertex x="-16.37" y="-28.35" curve="-120"/>
+<vertex x="-16.37" y="-31.65"/>
+<vertex x="-17.32" y="-30"/>
+</polygon>
+<polygon width="0.1" layer="29">
+<vertex x="-16.37" y="-28.35" curve="-120"/>
+<vertex x="-16.37" y="-31.65"/>
+<vertex x="-17.32" y="-30"/>
+</polygon>
+<polygon width="0.1" layer="30">
+<vertex x="-16.37" y="-28.35" curve="-120"/>
+<vertex x="-16.37" y="-31.65"/>
+<vertex x="-17.32" y="-30"/>
+</polygon>
+<polygon width="0.1" layer="1">
+<vertex x="-6.76" y="-15" curve="-120"/>
+<vertex x="-9.61" y="-16.65"/>
+<vertex x="-8.66" y="-15"/>
+</polygon>
+<polygon width="0.1" layer="16">
+<vertex x="-6.76" y="-15" curve="-120"/>
+<vertex x="-9.61" y="-16.65"/>
+<vertex x="-8.66" y="-15"/>
+</polygon>
+<polygon width="0.1" layer="29">
+<vertex x="-6.76" y="-15" curve="-120"/>
+<vertex x="-9.61" y="-16.65"/>
+<vertex x="-8.66" y="-15"/>
+</polygon>
+<polygon width="0.1" layer="30">
+<vertex x="-6.76" y="-15" curve="-120"/>
+<vertex x="-9.61" y="-16.65"/>
+<vertex x="-8.66" y="-15"/>
+</polygon>
+<polygon width="0.1" layer="1">
+<vertex x="16.37" y="1.65" curve="120"/>
+<vertex x="16.37" y="-1.65"/>
+<vertex x="17.32" y="0"/>
+</polygon>
+<polygon width="0.1" layer="16">
+<vertex x="16.37" y="1.65" curve="120"/>
+<vertex x="16.37" y="-1.65"/>
+<vertex x="17.32" y="0"/>
+</polygon>
+<polygon width="0.1" layer="1">
+<vertex x="6.75605625" y="15.001834375" curve="120"/>
+<vertex x="9.613940625" y="13.351834375"/>
+<vertex x="8.66" y="14.999559375"/>
+</polygon>
+<polygon width="0.1" layer="16">
+<vertex x="6.75605625" y="15.001834375" curve="120"/>
+<vertex x="9.613940625" y="13.351834375"/>
+<vertex x="8.66" y="14.999559375"/>
+</polygon>
+<polygon width="0.1" layer="29">
+<vertex x="6.75605625" y="15.001834375" curve="120"/>
+<vertex x="9.613940625" y="13.351834375"/>
+<vertex x="8.66" y="14.999559375"/>
+</polygon>
+<polygon width="0.1" layer="30">
+<vertex x="6.75605625" y="15.001834375" curve="120"/>
+<vertex x="9.613940625" y="13.351834375"/>
+<vertex x="8.66" y="14.999559375"/>
+</polygon>
+<smd name="PAD_PU11" x="8.26" y="14.3067375" dx="1" dy="1" layer="1" roundness="100" rot="R60" cream="no"/>
+<smd name="PAD_PD11" x="8.26" y="14.3067375" dx="1" dy="1" layer="16" roundness="100" rot="R60" cream="no"/>
+<smd name="PAD_PU20" x="-8.259996875" y="14.3067375" dx="1" dy="1" layer="1" roundness="100" rot="R120" cream="no"/>
+<polygon width="0.1" layer="1">
+<vertex x="-9.613940625" y="13.351834375" curve="120"/>
+<vertex x="-6.75605625" y="15.001834375"/>
+<vertex x="-8.659996875" y="14.999559375"/>
+</polygon>
+<smd name="PAD_PD20" x="-8.259996875" y="14.3067375" dx="1" dy="1" layer="16" roundness="100" rot="R120" cream="no"/>
+<polygon width="0.1" layer="16">
+<vertex x="-9.613940625" y="13.351834375" curve="120"/>
+<vertex x="-6.75605625" y="15.001834375"/>
+<vertex x="-8.659996875" y="14.999559375"/>
+</polygon>
+<polygon width="0.1" layer="29">
+<vertex x="-9.613940625" y="13.351834375" curve="120"/>
+<vertex x="-6.75605625" y="15.001834375"/>
+<vertex x="-8.659996875" y="14.999559375"/>
+</polygon>
+<polygon width="0.1" layer="30">
+<vertex x="-9.613940625" y="13.351834375" curve="120"/>
+<vertex x="-6.75605625" y="15.001834375"/>
+<vertex x="-8.659996875" y="14.999559375"/>
+</polygon>
+</package>
 </packages>
 <symbols>
 <symbol name="HEXABIT_POWER_ONLY">
@@ -4749,6 +5031,38 @@
 <pin name="GND1" x="-5.08" y="-5.08" visible="pin" length="middle" direction="pwr" rot="R180"/>
 <pin name="GND10" x="-5.08" y="-50.8" visible="pin" length="middle" direction="pwr" rot="R180"/>
 </symbol>
+<symbol name="HEXABIT_X2_POWER_ONLY">
+<wire x1="-20.32" y1="-53.34" x2="-10.16" y2="-53.34" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-53.34" x2="-10.16" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-2.54" x2="-20.32" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-20.32" y1="-2.54" x2="-20.32" y2="-53.34" width="0.254" layer="94"/>
+<wire x1="-20.32" y1="2.54" x2="-10.16" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="2.54" x2="-10.16" y2="53.34" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="53.34" x2="-20.32" y2="53.34" width="0.254" layer="94"/>
+<wire x1="-20.32" y1="53.34" x2="-20.32" y2="2.54" width="0.254" layer="94"/>
+<pin name="VDD2" x="-5.08" y="45.72" visible="pin" length="middle" direction="pwr" rot="R180"/>
+<pin name="VDD3" x="-5.08" y="40.64" visible="pin" length="middle" direction="pwr" rot="R180"/>
+<pin name="VDD4" x="-5.08" y="35.56" visible="pin" length="middle" direction="pwr" rot="R180"/>
+<pin name="VDD5" x="-5.08" y="30.48" visible="pin" length="middle" direction="pwr" rot="R180"/>
+<pin name="VDD6" x="-5.08" y="25.4" visible="pin" length="middle" direction="pwr" rot="R180"/>
+<pin name="GND2" x="-5.08" y="-10.16" visible="pin" length="middle" direction="pwr" rot="R180"/>
+<pin name="GND3" x="-5.08" y="-15.24" visible="pin" length="middle" direction="pwr" rot="R180"/>
+<pin name="GND4" x="-5.08" y="-20.32" visible="pin" length="middle" direction="pwr" rot="R180"/>
+<pin name="GND5" x="-5.08" y="-25.4" visible="pin" length="middle" direction="pwr" rot="R180"/>
+<pin name="GND6" x="-5.08" y="-30.48" visible="pin" length="middle" direction="pwr" rot="R180"/>
+<text x="-20.32" y="58.42" size="1.778" layer="95">&gt;NAME</text>
+<text x="-20.32" y="55.88" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="VDD7" x="-5.08" y="20.32" visible="pin" length="middle" direction="pwr" rot="R180"/>
+<pin name="VDD8" x="-5.08" y="15.24" visible="pin" length="middle" direction="pwr" rot="R180"/>
+<pin name="VDD9" x="-5.08" y="10.16" visible="pin" length="middle" direction="pwr" rot="R180"/>
+<pin name="GND7" x="-5.08" y="-35.56" visible="pin" length="middle" direction="pwr" rot="R180"/>
+<pin name="GND8" x="-5.08" y="-40.64" visible="pin" length="middle" direction="pwr" rot="R180"/>
+<pin name="GND9" x="-5.08" y="-45.72" visible="pin" length="middle" direction="pwr" rot="R180"/>
+<pin name="VDD1" x="-5.08" y="50.8" visible="pin" length="middle" direction="pwr" rot="R180"/>
+<pin name="VDD10" x="-5.08" y="5.08" visible="pin" length="middle" direction="pwr" rot="R180"/>
+<pin name="GND1" x="-5.08" y="-5.08" visible="pin" length="middle" direction="pwr" rot="R180"/>
+<pin name="GND10" x="-5.08" y="-50.8" visible="pin" length="middle" direction="pwr" rot="R180"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="HEXABIT_17.32_TOP_HALF" prefix="P">
@@ -5389,6 +5703,41 @@
 <connect gate="G$1" pin="VDD4" pad="PAD_PU10"/>
 <connect gate="G$1" pin="VDD5" pad="PAD_PU11"/>
 <connect gate="G$1" pin="VDD6" pad="PAD_PU12"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="HEXABIT_?_X2_POWER_ONLY" prefix="P">
+<description>&lt;b&gt;Hexabitz Double Hexagon Power-Only Module Connector&lt;/b&gt;&lt;p&gt;Hexagon side length = 17.32mm.&lt;p&gt;</description>
+<gates>
+<gate name="G$1" symbol="HEXABIT_X2_POWER_ONLY" x="0" y="0"/>
+</gates>
+<devices>
+<device name="17.32" package="HEXABIT_17.32_X2_POWER_ONLY">
+<connects>
+<connect gate="G$1" pin="GND1" pad="PAD_PD11"/>
+<connect gate="G$1" pin="GND10" pad="PAD_PD20"/>
+<connect gate="G$1" pin="GND2" pad="PAD_PD12"/>
+<connect gate="G$1" pin="GND3" pad="PAD_PD13"/>
+<connect gate="G$1" pin="GND4" pad="PAD_PD14"/>
+<connect gate="G$1" pin="GND5" pad="PAD_PD15"/>
+<connect gate="G$1" pin="GND6" pad="PAD_PD16"/>
+<connect gate="G$1" pin="GND7" pad="PAD_PD17"/>
+<connect gate="G$1" pin="GND8" pad="PAD_PD18"/>
+<connect gate="G$1" pin="GND9" pad="PAD_PD19"/>
+<connect gate="G$1" pin="VDD1" pad="PAD_PU11"/>
+<connect gate="G$1" pin="VDD10" pad="PAD_PU20"/>
+<connect gate="G$1" pin="VDD2" pad="PAD_PU12"/>
+<connect gate="G$1" pin="VDD3" pad="PAD_PU13"/>
+<connect gate="G$1" pin="VDD4" pad="PAD_PU14"/>
+<connect gate="G$1" pin="VDD5" pad="PAD_PU15"/>
+<connect gate="G$1" pin="VDD6" pad="PAD_PU16"/>
+<connect gate="G$1" pin="VDD7" pad="PAD_PU17"/>
+<connect gate="G$1" pin="VDD8" pad="PAD_PU18"/>
+<connect gate="G$1" pin="VDD9" pad="PAD_PU19"/>
 </connects>
 <technologies>
 <technology name=""/>
