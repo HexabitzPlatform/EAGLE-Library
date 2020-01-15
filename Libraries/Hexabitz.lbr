@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -39,7 +39,7 @@
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="2" visible="no" active="yes"/>
-<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
 <layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
@@ -3759,6 +3759,127 @@ Source: http://www.taiwansemi.com .. 5205_0409c.pdf</description>
 <rectangle x1="11.176" y1="-0.254" x2="11.684" y2="0.254" layer="51"/>
 <rectangle x1="8.636" y1="-0.254" x2="9.144" y2="0.254" layer="51"/>
 </package>
+<package name="RGE0024B_NV">
+<smd name="1" x="-1.9" y="1.25" dx="0.6" dy="0.24" layer="1" rot="R180"/>
+<smd name="2" x="-1.9" y="0.75" dx="0.6" dy="0.24" layer="1" rot="R180"/>
+<smd name="3" x="-1.9" y="0.25" dx="0.6" dy="0.24" layer="1" rot="R180"/>
+<smd name="4" x="-1.9" y="-0.25" dx="0.6" dy="0.24" layer="1" rot="R180"/>
+<smd name="5" x="-1.9" y="-0.75" dx="0.6" dy="0.24" layer="1" rot="R180"/>
+<smd name="6" x="-1.9" y="-1.25" dx="0.6" dy="0.24" layer="1" rot="R180"/>
+<smd name="7" x="-1.25" y="-1.9" dx="0.6" dy="0.24" layer="1" rot="R90"/>
+<smd name="8" x="-0.75" y="-1.9" dx="0.6" dy="0.24" layer="1" rot="R90"/>
+<smd name="9" x="-0.25" y="-1.9" dx="0.6" dy="0.24" layer="1" rot="R90"/>
+<smd name="10" x="0.25" y="-1.9" dx="0.6" dy="0.24" layer="1" rot="R90"/>
+<smd name="11" x="0.75" y="-1.9" dx="0.6" dy="0.24" layer="1" rot="R90"/>
+<smd name="12" x="1.25" y="-1.9" dx="0.6" dy="0.24" layer="1" rot="R90"/>
+<smd name="13" x="1.9" y="-1.25" dx="0.6" dy="0.24" layer="1" rot="R180"/>
+<smd name="14" x="1.9" y="-0.75" dx="0.6" dy="0.24" layer="1" rot="R180"/>
+<smd name="15" x="1.9" y="-0.25" dx="0.6" dy="0.24" layer="1" rot="R180"/>
+<smd name="16" x="1.9" y="0.25" dx="0.6" dy="0.24" layer="1" rot="R180"/>
+<smd name="17" x="1.9" y="0.75" dx="0.6" dy="0.24" layer="1" rot="R180"/>
+<smd name="18" x="1.9" y="1.25" dx="0.6" dy="0.24" layer="1" rot="R180"/>
+<smd name="19" x="1.25" y="1.9" dx="0.6" dy="0.24" layer="1" rot="R90"/>
+<smd name="20" x="0.75" y="1.9" dx="0.6" dy="0.24" layer="1" rot="R90"/>
+<smd name="21" x="0.25" y="1.9" dx="0.6" dy="0.24" layer="1" rot="R90"/>
+<smd name="22" x="-0.25" y="1.9" dx="0.6" dy="0.24" layer="1" rot="R90"/>
+<smd name="23" x="-0.75" y="1.9" dx="0.6" dy="0.24" layer="1" rot="R90"/>
+<smd name="24" x="-1.25" y="1.9" dx="0.6" dy="0.24" layer="1" rot="R90"/>
+<smd name="25" x="0" y="0" dx="2.45" dy="2.45" layer="1"/>
+<wire x1="-2.0828" y1="-2.0828" x2="2.0828" y2="-2.0828" width="0.1524" layer="51"/>
+<wire x1="-2.0828" y1="2.0828" x2="2.0828" y2="2.0828" width="0.1524" layer="51"/>
+<wire x1="2.0828" y1="-2.0828" x2="2.0828" y2="2.0828" width="0.1524" layer="51"/>
+<wire x1="-2.0828" y1="-2.0828" x2="-2.0828" y2="2.0828" width="0.1524" layer="51"/>
+<wire x1="-2.2352" y1="-2.2352" x2="-2.0066" y2="-2.2352" width="0.2032" layer="21"/>
+<wire x1="-2.2352" y1="-2.2352" x2="-2.2352" y2="-2.0066" width="0.2032" layer="21"/>
+<wire x1="2.2352" y1="-2.2352" x2="2.2352" y2="-2.0066" width="0.2032" layer="21"/>
+<wire x1="2.0066" y1="-2.2352" x2="2.2352" y2="-2.2352" width="0.2032" layer="21"/>
+<wire x1="2.0066" y1="2.2352" x2="2.2352" y2="2.2352" width="0.2032" layer="21"/>
+<wire x1="2.2352" y1="2.0066" x2="2.2352" y2="2.2352" width="0.2032" layer="21"/>
+<wire x1="-2.2352" y1="1.6002" x2="-2.2352" y2="2.2352" width="0.2032" layer="21"/>
+<wire x1="-2.2352" y1="2.2352" x2="-1.6002" y2="2.2352" width="0.2032" layer="21"/>
+<polygon width="0.0254" layer="31">
+<vertex x="0.1" y="-1.184"/>
+<vertex x="1.184" y="-1.184"/>
+<vertex x="1.184" y="-0.1"/>
+<vertex x="0.1" y="-0.1"/>
+</polygon>
+<polygon width="0.0254" layer="31">
+<vertex x="-0.1" y="-0.1"/>
+<vertex x="-1.184" y="-0.1"/>
+<vertex x="-1.184" y="-1.184"/>
+<vertex x="-0.1" y="-1.184"/>
+</polygon>
+<polygon width="0.0254" layer="31">
+<vertex x="-0.1" y="1.184"/>
+<vertex x="-1.184" y="1.184"/>
+<vertex x="-1.184" y="0.1"/>
+<vertex x="-0.1" y="0.1"/>
+</polygon>
+<polygon width="0.0254" layer="31">
+<vertex x="0.1" y="0.1"/>
+<vertex x="1.184" y="0.1"/>
+<vertex x="1.184" y="1.184"/>
+<vertex x="0.1" y="1.184"/>
+</polygon>
+<text x="-2.0066" y="3.175" size="1.016" layer="25" rot="SR0">&gt;Name</text>
+<circle x="-2.794" y="1.27" radius="0.254" width="0.2032" layer="21"/>
+</package>
+<package name="DNT0012B">
+<smd name="1" x="-1.9" y="1.25" dx="0.25" dy="0.6" layer="1" rot="R270"/>
+<smd name="2" x="-1.9" y="0.75" dx="0.25" dy="0.6" layer="1" rot="R270"/>
+<smd name="3" x="-1.9" y="0.25" dx="0.25" dy="0.6" layer="1" rot="R270"/>
+<smd name="4" x="-1.9" y="-0.25" dx="0.25" dy="0.6" layer="1" rot="R270"/>
+<smd name="5" x="-1.9" y="-0.75" dx="0.25" dy="0.6" layer="1" rot="R270"/>
+<smd name="6" x="-1.9" y="-1.25" dx="0.25" dy="0.6" layer="1" rot="R270"/>
+<smd name="7" x="1.9" y="-1.25" dx="0.25" dy="0.6" layer="1" rot="R270"/>
+<smd name="8" x="1.9" y="-0.75" dx="0.25" dy="0.6" layer="1" rot="R270"/>
+<smd name="9" x="1.9" y="-0.25" dx="0.25" dy="0.6" layer="1" rot="R270"/>
+<smd name="10" x="1.9" y="0.250003125" dx="0.25" dy="0.6" layer="1" rot="R270"/>
+<smd name="11" x="1.9" y="0.75" dx="0.25" dy="0.6" layer="1" rot="R270"/>
+<smd name="12" x="1.9" y="1.25" dx="0.25" dy="0.6" layer="1" rot="R270"/>
+<smd name="13" x="0" y="0" dx="3" dy="2.6" layer="1" rot="R270"/>
+<smd name="V" x="0" y="1.2" dx="0.5" dy="0.5" layer="1" roundness="100"/>
+<wire x1="-2.2098" y1="-2.2098" x2="-2.0066" y2="-2.2098" width="0.2032" layer="21"/>
+<wire x1="-2.2098" y1="-2.2098" x2="-2.2098" y2="-2.032" width="0.2032" layer="21"/>
+<wire x1="2.2098" y1="-2.2098" x2="2.2098" y2="-2.032" width="0.2032" layer="21"/>
+<wire x1="2.0066" y1="-2.2098" x2="2.2098" y2="-2.2098" width="0.2032" layer="21"/>
+<wire x1="2.0066" y1="2.2098" x2="2.2098" y2="2.2098" width="0.2032" layer="21"/>
+<wire x1="2.2098" y1="2.032" x2="2.2098" y2="2.2098" width="0.2032" layer="21"/>
+<wire x1="-2.2098" y1="1.7018" x2="-2.2098" y2="2.2098" width="0.2032" layer="21"/>
+<wire x1="-2.2098" y1="2.2098" x2="-1.397" y2="2.2098" width="0.2032" layer="21"/>
+<wire x1="-2.0574" y1="2.0574" x2="2.0574" y2="2.0574" width="0.1524" layer="51"/>
+<wire x1="-2.0574" y1="-2.0574" x2="2.0574" y2="-2.0574" width="0.1524" layer="51"/>
+<wire x1="2.0574" y1="-2.0574" x2="2.0574" y2="2.0574" width="0.1524" layer="51"/>
+<wire x1="-2.0574" y1="-2.0574" x2="-2.0574" y2="2.0574" width="0.1524" layer="51"/>
+<wire x1="-1.2954" y1="1.4986" x2="-1.7018" y2="1.4986" width="0.1016" layer="51" curve="-180"/>
+<wire x1="-1.7018" y1="1.4986" x2="-1.2954" y2="1.4986" width="0.1016" layer="51" curve="-180"/>
+<polygon width="0.0254" layer="31">
+<vertex x="0.1" y="0.1"/>
+<vertex x="1.248" y="0.1"/>
+<vertex x="1.248" y="1.41"/>
+<vertex x="0.1" y="1.41"/>
+</polygon>
+<polygon width="0.0254" layer="31">
+<vertex x="-0.099996875" y="1.41"/>
+<vertex x="-1.248" y="1.41"/>
+<vertex x="-1.248" y="0.1"/>
+<vertex x="-0.099996875" y="0.1"/>
+</polygon>
+<polygon width="0.0254" layer="31">
+<vertex x="-0.099996875" y="-0.1"/>
+<vertex x="-1.248" y="-0.1"/>
+<vertex x="-1.248" y="-1.41"/>
+<vertex x="-0.099996875" y="-1.41"/>
+</polygon>
+<polygon width="0.0254" layer="31">
+<vertex x="0.1" y="-1.41"/>
+<vertex x="1.248" y="-1.41"/>
+<vertex x="1.248" y="-0.1"/>
+<vertex x="0.1" y="-0.1"/>
+</polygon>
+<text x="-2.2606" y="2.667" size="1.016" layer="25" rot="SR0">&gt;Name</text>
+<circle x="-2.54" y="1.524" radius="0.127" width="0.1524" layer="21"/>
+</package>
 </packages>
 <packages3d>
 <package3d name="QFP50P2200X2200X160-144" urn="urn:adsk.eagle:package:7148528/1" type="model">
@@ -5570,6 +5691,73 @@ Source: http://www.taiwansemi.com .. 5205_0409c.pdf</description>
 <pin name="9" x="7.62" y="10.16" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="10" x="7.62" y="12.7" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
 </symbol>
+<symbol name="TPS65130RGE">
+<pin name="INP_2" x="-20.32" y="30.48" length="middle" direction="pwr"/>
+<pin name="PGND_2" x="20.32" y="-25.4" length="middle" direction="pwr" rot="R180"/>
+<pin name="PGND" x="20.32" y="-27.94" length="middle" direction="pwr" rot="R180"/>
+<pin name="VIN" x="-20.32" y="5.08" length="middle" direction="pwr"/>
+<pin name="INN_2" x="-20.32" y="12.7" length="middle" direction="pwr"/>
+<pin name="INN" x="-20.32" y="10.16" length="middle" direction="pwr"/>
+<pin name="BSW" x="-20.32" y="20.32" length="middle" direction="out"/>
+<pin name="ENP" x="-20.32" y="-2.54" length="middle" direction="in"/>
+<pin name="PSP" x="-20.32" y="-7.62" length="middle" direction="in"/>
+<pin name="ENN" x="-20.32" y="-12.7" length="middle" direction="in"/>
+<pin name="PSN" x="-20.32" y="-17.78" length="middle" direction="in"/>
+<pin name="NC_2" x="-20.32" y="-25.4" length="middle" direction="pas"/>
+<pin name="OUTN_2" x="20.32" y="0" length="middle" direction="pwr" rot="R180"/>
+<pin name="OUTN" x="20.32" y="-2.54" length="middle" direction="pwr" rot="R180"/>
+<pin name="VNEG" x="20.32" y="5.08" length="middle" direction="in" rot="R180"/>
+<pin name="FBN" x="20.32" y="10.16" length="middle" direction="in" rot="R180"/>
+<pin name="VREF" x="20.32" y="20.32" length="middle" direction="out" rot="R180"/>
+<pin name="CN" x="20.32" y="-15.24" length="middle" direction="pas" rot="R180"/>
+<pin name="AGND" x="20.32" y="-22.86" length="middle" direction="pwr" rot="R180"/>
+<pin name="NC" x="-20.32" y="-27.94" length="middle" direction="pas"/>
+<pin name="CP" x="20.32" y="-10.16" length="middle" direction="pas" rot="R180"/>
+<pin name="FBP" x="20.32" y="25.4" length="middle" direction="in" rot="R180"/>
+<pin name="VPOS" x="20.32" y="30.48" length="middle" direction="in" rot="R180"/>
+<pin name="INP" x="-20.32" y="27.94" length="middle" direction="pwr"/>
+<pin name="PAD" x="20.32" y="-30.48" length="middle" direction="pwr" rot="R180"/>
+<wire x1="-15.24" y1="-35.56" x2="15.24" y2="-35.56" width="0.2032" layer="94"/>
+<wire x1="15.24" y1="-35.56" x2="15.24" y2="35.56" width="0.2032" layer="94"/>
+<wire x1="15.24" y1="35.56" x2="-15.24" y2="35.56" width="0.2032" layer="94"/>
+<wire x1="-15.24" y1="35.56" x2="-15.24" y2="-35.56" width="0.2032" layer="94"/>
+<text x="-15.24" y="40.64" size="2.0828" layer="95" ratio="6" rot="SR0">&gt;Name</text>
+<text x="-15.24" y="36.83" size="2.0828" layer="96" ratio="6" rot="SR0">&gt;Value</text>
+</symbol>
+<symbol name="LM5160DNT">
+<pin name="AGND" x="-20.32" y="-12.7" length="middle" direction="pwr"/>
+<pin name="PGND" x="-20.32" y="-15.24" length="middle" direction="pwr"/>
+<pin name="VIN" x="-20.32" y="17.78" length="middle" direction="pwr"/>
+<pin name="EN_UVLO" x="-20.32" y="5.08" length="middle" direction="in"/>
+<pin name="RON" x="-20.32" y="12.7" length="middle" direction="in"/>
+<pin name="SS" x="-20.32" y="0" length="middle" direction="in"/>
+<pin name="FPWM" x="20.32" y="2.54" length="middle" direction="in" rot="R180"/>
+<pin name="FB" x="20.32" y="-10.16" length="middle" direction="in" rot="R180"/>
+<pin name="VCC" x="20.32" y="-2.54" length="middle" direction="pwr" rot="R180"/>
+<pin name="BST" x="20.32" y="17.78" length="middle" direction="pwr" rot="R180"/>
+<pin name="SW_2" x="20.32" y="7.62" length="middle" direction="pwr" rot="R180"/>
+<pin name="SW" x="20.32" y="10.16" length="middle" direction="pwr" rot="R180"/>
+<pin name="PAD" x="-20.32" y="-17.78" length="middle" direction="pwr"/>
+<wire x1="-15.24" y1="-22.86" x2="15.24" y2="-22.86" width="0.1524" layer="94"/>
+<wire x1="15.24" y1="-22.86" x2="15.24" y2="22.86" width="0.1524" layer="94"/>
+<wire x1="15.24" y1="22.86" x2="-15.24" y2="22.86" width="0.1524" layer="94"/>
+<wire x1="-15.24" y1="22.86" x2="-15.24" y2="-22.86" width="0.1524" layer="94"/>
+<text x="-15.24" y="29.21" size="2.0828" layer="95" ratio="6" rot="SR0">&gt;Name</text>
+<text x="-15.24" y="25.4" size="2.0828" layer="96" ratio="6" rot="SR0">&gt;Value</text>
+</symbol>
+<symbol name="L-PULSE+">
+<wire x1="2.54" y1="1.397" x2="-2.54" y2="1.397" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-1.27" y2="0" width="0.1524" layer="94" curve="-191.421186"/>
+<wire x1="-1.27" y1="0" x2="0" y2="0" width="0.1524" layer="94" curve="-191.421186"/>
+<wire x1="1.27" y1="0" x2="2.54" y2="0" width="0.1524" layer="94" curve="-191.421186"/>
+<wire x1="0" y1="0" x2="1.27" y2="0" width="0.1524" layer="94" curve="-191.421186"/>
+<wire x1="2.54" y1="2.032" x2="-2.54" y2="2.032" width="0.254" layer="94"/>
+<circle x="-1.905" y="0" radius="0.1796" width="0" layer="94"/>
+<text x="-2.54" y="2.54" size="1.778" layer="95">&gt;NAME</text>
+<text x="-2.54" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="1" x="-5.08" y="0" visible="pad" length="short" direction="pas" swaplevel="1"/>
+<pin name="2" x="5.08" y="0" visible="pad" length="short" direction="pas" swaplevel="1" rot="R180"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="STM32F091CBU6" prefix="U" uservalue="yes">
@@ -6357,15 +6545,7 @@ Watchdog Timer : Yes</description>
 </devices>
 </deviceset>
 <deviceset name="CON-PHOENIX-350_1751248" prefix="X">
-<description>&lt;b&gt;MKDS 1/ 2-3,5&lt;/b&gt; Printklemme&lt;p&gt;
-Nennstrom: 10 A&lt;br&gt;
-Bemessungsspannung: 160 V&lt;br&gt;
-Raster: 3,5 mm&lt;br&gt;
-Polzahl: 2&lt;br&gt;
-Montageart: Löten&lt;br&gt;
-Anschlussart: Schraubanschluss&lt;br&gt;
-Anschlussrichtung vom Leiter zur Platine: 0°&lt;br&gt;
-Source: http://eshop.phoenixcontact.com .. 1751248.pdf</description>
+<description>2pin Terminal Block; Printed Circuit; 10 A; 160 V; 3.5 mm; 2; 3.5 mm; 1.2 mm; M2; PA</description>
 <gates>
 <gate name="-1" symbol="CON-PHOENIX-350_SCHRAUBKLEMME" x="2.54" y="0" addlevel="always"/>
 <gate name="-2" symbol="CON-PHOENIX-350_SCHRAUBKLEMME" x="2.54" y="-7.62" addlevel="always"/>
@@ -6379,7 +6559,9 @@ Source: http://eshop.phoenixcontact.com .. 1751248.pdf</description>
 <technologies>
 <technology name="">
 <attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
+<attribute name="MFN" value="Phoenix Contact" constant="no"/>
+<attribute name="MPN" value="1751251" constant="no"/>
+<attribute name="OCTOPART_URL" value="https://octopart.com/1751251-phoenix+contact-36473?r=sp&amp;s=9M0VWNoHTyq04j3qI6lQOQ" constant="no"/>
 <attribute name="OC_FARNELL" value="unknown" constant="no"/>
 <attribute name="OC_NEWARK" value="unknown" constant="no"/>
 </technology>
@@ -7790,7 +7972,7 @@ Source: http://eshop.phoenixcontact.com .. 1751251.pdf</description>
 </devices>
 </deviceset>
 <deviceset name="C-1206" prefix="C">
-<description>Cap Tant Solid SMD 1210</description>
+<description>Cap Tant Solid SMD 1206</description>
 <gates>
 <gate name="G$1" symbol="C-0603" x="0" y="0"/>
 </gates>
@@ -8425,6 +8607,126 @@ Source: http://eshop.phoenixcontact.com .. 1751251.pdf</description>
 <attribute name="MPN" value="" constant="no"/>
 <attribute name="OC_FARNELL" value="unknown" constant="no"/>
 <attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TPS65130RGER" prefix="U">
+<description>Split-Rail Converter with Dual, Positive and Negative Outputs (300mA typ) 24-VQFN -40 to 85</description>
+<gates>
+<gate name="A" symbol="TPS65130RGE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="T" package="RGE0024B_NV">
+<connects>
+<connect gate="A" pin="AGND" pad="19"/>
+<connect gate="A" pin="BSW" pad="7"/>
+<connect gate="A" pin="CN" pad="18"/>
+<connect gate="A" pin="CP" pad="21"/>
+<connect gate="A" pin="ENN" pad="10"/>
+<connect gate="A" pin="ENP" pad="8"/>
+<connect gate="A" pin="FBN" pad="16"/>
+<connect gate="A" pin="FBP" pad="22"/>
+<connect gate="A" pin="INN" pad="6"/>
+<connect gate="A" pin="INN_2" pad="5"/>
+<connect gate="A" pin="INP" pad="24"/>
+<connect gate="A" pin="INP_2" pad="1"/>
+<connect gate="A" pin="NC" pad="20"/>
+<connect gate="A" pin="NC_2" pad="12"/>
+<connect gate="A" pin="OUTN" pad="14"/>
+<connect gate="A" pin="OUTN_2" pad="13"/>
+<connect gate="A" pin="PAD" pad="25"/>
+<connect gate="A" pin="PGND" pad="3"/>
+<connect gate="A" pin="PGND_2" pad="2"/>
+<connect gate="A" pin="PSN" pad="11"/>
+<connect gate="A" pin="PSP" pad="9"/>
+<connect gate="A" pin="VIN" pad="4"/>
+<connect gate="A" pin="VNEG" pad="15"/>
+<connect gate="A" pin="VPOS" pad="23"/>
+<connect gate="A" pin="VREF" pad="17"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="ALTERNATE_PARTNUMBER" value="TPS65130RGET" constant="no"/>
+<attribute name="APPLICATION_BUILDNUMBER" value="*" constant="no"/>
+<attribute name="COMPTYPE" value="IC" constant="no"/>
+<attribute name="MANUFACTURER" value="Texas Instruments" constant="no"/>
+<attribute name="MFN" value="Texas Instruments" constant="no"/>
+<attribute name="MOUNTTYPE" value="SMT" constant="no"/>
+<attribute name="MPN" value="TPS65130RGET" constant="no"/>
+<attribute name="OCTOPART_URL" value="https://octopart.com/tps65130rget-texas+instruments-7102173?r=sp&amp;s=1oanP9AbQhOs522rlI3BXw" constant="no"/>
+<attribute name="PACKAGEREFERENCE" value="RGE0024B" constant="no"/>
+<attribute name="PARTNUMBER" value="TPS65130RGER" constant="no"/>
+<attribute name="PIN_COUNT" value="25" constant="no"/>
+<attribute name="REFDES" value="RefDes" constant="no"/>
+<attribute name="ROHS" value="Y" constant="no"/>
+<attribute name="TYPE" value="TYPE" constant="no"/>
+<attribute name="VALUE" value="TPS65130RGERT" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LM5160DNT" prefix="U">
+<description>LM5160 wide input 65V, 2A synchronous buck/Fly-Buck™ converter 12-WSON -40 to 125</description>
+<gates>
+<gate name="A" symbol="LM5160DNT" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="DNT0012B">
+<connects>
+<connect gate="A" pin="AGND" pad="1"/>
+<connect gate="A" pin="BST" pad="10"/>
+<connect gate="A" pin="EN_UVLO" pad="4"/>
+<connect gate="A" pin="FB" pad="8"/>
+<connect gate="A" pin="FPWM" pad="7"/>
+<connect gate="A" pin="PAD" pad="13"/>
+<connect gate="A" pin="PGND" pad="2"/>
+<connect gate="A" pin="RON" pad="5"/>
+<connect gate="A" pin="SS" pad="6"/>
+<connect gate="A" pin="SW" pad="12"/>
+<connect gate="A" pin="SW_2" pad="11"/>
+<connect gate="A" pin="VCC" pad="9"/>
+<connect gate="A" pin="VIN" pad="3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COMPTYPE" value="IC" constant="no"/>
+<attribute name="MANUFACTURER" value="Texas Instruments" constant="no"/>
+<attribute name="MFN" value="Texas Instruments" constant="no"/>
+<attribute name="MOUNTTYPE" value="SMT" constant="no"/>
+<attribute name="MPN" value="LM5160DNT" constant="no"/>
+<attribute name="OCTOPART_URL" value="https://octopart.com/lm5160dntt-texas+instruments-51761725?r=sp&amp;s=sYhYnlaHQIStkk-s71hgUg" constant="no"/>
+<attribute name="PACKAGEREFERENCE" value="DNT0012B" constant="no"/>
+<attribute name="PARTNUMBER" value="LM5160DNT" constant="no"/>
+<attribute name="PIN_COUNT" value="13" constant="no"/>
+<attribute name="REFDES" value="RefDes" constant="no"/>
+<attribute name="ROHS" value="Y" constant="no"/>
+<attribute name="TYPE" value="TYPE" constant="no"/>
+<attribute name="VALUE" value="LM5160DNT" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LQM18PN2R2MFHD" prefix="L" uservalue="yes">
+<description>Inductor Power Chip Shielded Multi-Layer 2.2uH 20% 1MHz Ferrite 0.7A 0.475Ohm DCR 0603 T/R</description>
+<gates>
+<gate name="A" symbol="L-PULSE+" x="5.08" y="0"/>
+</gates>
+<devices>
+<device name="" package="C-0603">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MFN" value="Murata" constant="no"/>
+<attribute name="MPN" value="LQM18PN2R2MFHD" constant="no"/>
+<attribute name="OCTOPART_URL" value="https://octopart.com/lqm18pn2r2mfhd-murata-46921411?r=sp&amp;s=Row_twtqSIqtu2tUWXcF8g#" constant="no"/>
+<attribute name="VALUE" value="2.2uH" constant="no"/>
 </technology>
 </technologies>
 </device>
