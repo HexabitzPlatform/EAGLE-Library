@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="5" unitdist="mil" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -3838,7 +3838,6 @@ Source: http://www.taiwansemi.com .. 5205_0409c.pdf</description>
 <smd name="11" x="1.9" y="0.75" dx="0.25" dy="0.6" layer="1" rot="R270"/>
 <smd name="12" x="1.9" y="1.25" dx="0.25" dy="0.6" layer="1" rot="R270"/>
 <smd name="13" x="0" y="0" dx="3" dy="2.6" layer="1" rot="R270"/>
-<smd name="V" x="0" y="1.2" dx="0.5" dy="0.5" layer="1" roundness="100"/>
 <wire x1="-2.2098" y1="-2.2098" x2="-2.0066" y2="-2.2098" width="0.2032" layer="21"/>
 <wire x1="-2.2098" y1="-2.2098" x2="-2.2098" y2="-2.032" width="0.2032" layer="21"/>
 <wire x1="2.2098" y1="-2.2098" x2="2.2098" y2="-2.032" width="0.2032" layer="21"/>
@@ -3879,6 +3878,50 @@ Source: http://www.taiwansemi.com .. 5205_0409c.pdf</description>
 </polygon>
 <text x="-2.2606" y="2.667" size="1.016" layer="25" rot="SR0">&gt;Name</text>
 <circle x="-2.54" y="1.524" radius="0.127" width="0.1524" layer="21"/>
+</package>
+<package name="WUERTH_ELEKTRONIK_74489430220_0">
+<description>WE-IND-INDUCTOR-4H</description>
+<wire x1="-4.531" y1="1.946" x2="-2.073" y2="4.404" width="0.15" layer="21"/>
+<wire x1="1.894" y1="-4.583" x2="-1.894" y2="-4.583" width="0.1" layer="51"/>
+<wire x1="-1.894" y1="-4.583" x2="-4.583" y2="-1.894" width="0.1" layer="51"/>
+<wire x1="-4.583" y1="-1.894" x2="-4.583" y2="1.894" width="0.1" layer="51"/>
+<wire x1="-4.583" y1="1.894" x2="-1.894" y2="4.583" width="0.1" layer="51"/>
+<wire x1="-1.894" y1="4.583" x2="1.894" y2="4.583" width="0.1" layer="51"/>
+<wire x1="4.583" y1="1.894" x2="4.583" y2="-1.894" width="0.1" layer="51"/>
+<wire x1="4.583" y1="-1.894" x2="1.894" y2="-4.583" width="0.1" layer="51"/>
+<wire x1="1.894" y1="4.583" x2="4.583" y2="1.894" width="0.1" layer="51"/>
+<wire x1="-4.699" y1="2.032" x2="-2.032" y2="4.699" width="0.1" layer="39"/>
+<wire x1="-2.032" y1="4.699" x2="2.032" y2="4.699" width="0.1" layer="39"/>
+<wire x1="2.032" y1="4.699" x2="4.699" y2="2.032" width="0.1" layer="39"/>
+<wire x1="4.699" y1="2.032" x2="4.699" y2="-2.032" width="0.1" layer="39"/>
+<wire x1="4.699" y1="-2.032" x2="2.032" y2="-4.699" width="0.1" layer="39"/>
+<wire x1="2.032" y1="-4.699" x2="-2.032" y2="-4.699" width="0.1" layer="39"/>
+<wire x1="-2.032" y1="-4.699" x2="-4.699" y2="-2.032" width="0.1" layer="39"/>
+<wire x1="-4.699" y1="-2.032" x2="-4.699" y2="2.032" width="0.1" layer="39"/>
+<text x="-6.6" y="5.175" size="1" layer="25">&gt;NAME</text>
+<circle x="0" y="2.51" radius="0.125" width="0.25" layer="21"/>
+<circle x="0" y="2.5" radius="0.316" width="0.127" layer="51"/>
+<smd name="2" x="-3.8" y="0" dx="3.6" dy="1.4" layer="1" rot="R90"/>
+<smd name="3" x="0" y="-3.8" dx="3.6" dy="1.4" layer="1"/>
+<smd name="4" x="3.8" y="0" dx="3.6" dy="1.4" layer="1" rot="R90"/>
+<smd name="1" x="0" y="3.8" dx="3.6" dy="1.4" layer="1"/>
+<wire x1="-1.946" y1="-4.531" x2="-4.404" y2="-2.073" width="0.15" layer="21"/>
+<wire x1="4.531" y1="-1.946" x2="2.073" y2="-4.404" width="0.15" layer="21"/>
+<wire x1="2.073" y1="4.404" x2="4.531" y2="1.946" width="0.15" layer="21"/>
+</package>
+<package name="WUERTH_ELEKTRONIK_74404024100_0">
+<description>WE-IND-INDUCTOR-2</description>
+<wire x1="-1.25" y1="-1" x2="1.25" y2="-1" width="0.1" layer="51"/>
+<wire x1="-1.25" y1="1" x2="1.25" y2="1" width="0.1" layer="51"/>
+<wire x1="1.25" y1="-1" x2="1.25" y2="1" width="0.1" layer="51"/>
+<wire x1="-1.25" y1="-1" x2="-1.25" y2="1" width="0.1" layer="51"/>
+<wire x1="-1.5" y1="-1.25" x2="-1.5" y2="1.25" width="0.1" layer="39"/>
+<wire x1="-1.5" y1="1.25" x2="1.5" y2="1.25" width="0.1" layer="39"/>
+<wire x1="1.5" y1="1.25" x2="1.5" y2="-1.25" width="0.1" layer="39"/>
+<wire x1="1.5" y1="-1.25" x2="-1.5" y2="-1.25" width="0.1" layer="39"/>
+<text x="-2.825" y="1.25" size="1" layer="25">&gt;NAME</text>
+<smd name="2" x="0.825" y="0" dx="2" dy="0.85" layer="1" rot="R90"/>
+<smd name="1" x="-0.825" y="0" dx="2" dy="0.85" layer="1" rot="R90"/>
 </package>
 </packages>
 <packages3d>
@@ -5721,8 +5764,8 @@ Source: http://www.taiwansemi.com .. 5205_0409c.pdf</description>
 <wire x1="15.24" y1="-35.56" x2="15.24" y2="35.56" width="0.2032" layer="94"/>
 <wire x1="15.24" y1="35.56" x2="-15.24" y2="35.56" width="0.2032" layer="94"/>
 <wire x1="-15.24" y1="35.56" x2="-15.24" y2="-35.56" width="0.2032" layer="94"/>
-<text x="-15.24" y="40.64" size="2.0828" layer="95" ratio="6" rot="SR0">&gt;Name</text>
-<text x="-15.24" y="36.83" size="2.0828" layer="96" ratio="6" rot="SR0">&gt;Value</text>
+<text x="-15.24" y="40.64" size="1.9304" layer="95" rot="SR0">&gt;Name</text>
+<text x="-15.24" y="36.83" size="1.9304" layer="96" rot="SR0">&gt;Value</text>
 </symbol>
 <symbol name="LM5160DNT">
 <pin name="AGND" x="-20.32" y="-12.7" length="middle" direction="pwr"/>
@@ -5742,8 +5785,8 @@ Source: http://www.taiwansemi.com .. 5205_0409c.pdf</description>
 <wire x1="15.24" y1="-22.86" x2="15.24" y2="22.86" width="0.1524" layer="94"/>
 <wire x1="15.24" y1="22.86" x2="-15.24" y2="22.86" width="0.1524" layer="94"/>
 <wire x1="-15.24" y1="22.86" x2="-15.24" y2="-22.86" width="0.1524" layer="94"/>
-<text x="-15.24" y="29.21" size="2.0828" layer="95" ratio="6" rot="SR0">&gt;Name</text>
-<text x="-15.24" y="25.4" size="2.0828" layer="96" ratio="6" rot="SR0">&gt;Value</text>
+<text x="-15.24" y="27.94" size="1.9304" layer="95" rot="SR0">&gt;Name</text>
+<text x="-15.24" y="24.13" size="1.9304" layer="96" rot="SR0">&gt;Value</text>
 </symbol>
 <symbol name="L-PULSE+">
 <wire x1="2.54" y1="1.397" x2="-2.54" y2="1.397" width="0.254" layer="94"/>
@@ -5757,6 +5800,37 @@ Source: http://www.taiwansemi.com .. 5205_0409c.pdf</description>
 <text x="-2.54" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="1" x="-5.08" y="0" visible="pad" length="short" direction="pas" swaplevel="1"/>
 <pin name="2" x="5.08" y="0" visible="pad" length="short" direction="pas" swaplevel="1" rot="R180"/>
+</symbol>
+<symbol name="WUERTH_ELEKTRONIK_74489430220_0_0">
+<description>WE-IND-INDUCTOR-4H</description>
+<wire x1="7.62" y1="-5.08" x2="5.08" y2="-5.08" width="0.254" layer="94" curve="180"/>
+<wire x1="10.16" y1="-5.08" x2="7.62" y2="-5.08" width="0.254" layer="94" curve="180"/>
+<wire x1="12.7" y1="-5.08" x2="10.16" y2="-5.08" width="0.254" layer="94" curve="180"/>
+<wire x1="15.24" y1="-5.08" x2="12.7" y2="-5.08" width="0.254" layer="94" curve="180"/>
+<wire x1="12.7" y1="0" x2="15.24" y2="0" width="0.254" layer="94" curve="180"/>
+<wire x1="10.16" y1="0" x2="12.7" y2="0" width="0.254" layer="94" curve="180"/>
+<wire x1="7.62" y1="0" x2="10.16" y2="0" width="0.254" layer="94" curve="180"/>
+<wire x1="5.08" y1="0" x2="7.62" y2="0" width="0.254" layer="94" curve="180"/>
+<wire x1="6.604" y1="-2.032" x2="14.224" y2="-2.032" width="0.254" layer="94"/>
+<wire x1="6.604" y1="-3.048" x2="14.224" y2="-3.048" width="0.254" layer="94"/>
+<text x="5.08" y="3.81" size="1.9304" layer="95" align="top-left">&gt;VALUE</text>
+<pin name="3" x="0" y="-5.08" visible="pad" length="middle" direction="pas"/>
+<pin name="2" x="20.32" y="-5.08" visible="pad" length="middle" direction="pas" rot="R180"/>
+<pin name="1" x="0" y="0" visible="pad" length="middle" direction="pas"/>
+<pin name="4" x="20.32" y="0" visible="pad" length="middle" direction="pas" rot="R180"/>
+<text x="5.08" y="7.62" size="1.9304" layer="95" align="top-left">&gt;NAME</text>
+<circle x="5.08" y="-2.54" radius="0.254" width="0.6096" layer="94"/>
+</symbol>
+<symbol name="WUERTH_ELEKTRONIK_74404024100_0_0">
+<description>WE-IND-INDUCTOR-2</description>
+<wire x1="7.62" y1="0" x2="5.08" y2="0" width="0.254" layer="94" curve="180"/>
+<wire x1="10.16" y1="0" x2="7.62" y2="0" width="0.254" layer="94" curve="180"/>
+<wire x1="12.7" y1="0" x2="10.16" y2="0" width="0.254" layer="94" curve="180"/>
+<wire x1="15.24" y1="0" x2="12.7" y2="0" width="0.254" layer="94" curve="180"/>
+<text x="5.08" y="5.08" size="1.9304" layer="95" align="top-left">&gt;VALUE</text>
+<pin name="1" x="0" y="0" visible="pad" length="middle" direction="pas"/>
+<pin name="2" x="20.32" y="0" visible="pad" length="middle" direction="pas" rot="R180"/>
+<text x="5.08" y="8.89" size="1.9304" layer="95" align="top-left">&gt;NAME</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -5933,9 +6007,10 @@ Octopart Url : http://octopart.com/vlms1300-gs08-vishay-21709201</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="MFN" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OCTOPART_URL" value="" constant="no"/>
+<attribute name="MFN" value="Vishay" constant="no"/>
+<attribute name="MPN" value="VLMS1300-GS08" constant="no"/>
+<attribute name="OCTOPART_URL" value="https://octopart.com/vlms1300-gs08-vishay-21709201?r=sp&amp;s=0nXJNjGsSbWwqfqWlZv0EA" constant="no"/>
+<attribute name="VALUE" value="RED" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -6987,8 +7062,9 @@ Source: http://eshop.phoenixcontact.com .. 1751277.pdf</description>
 </devices>
 </deviceset>
 <deviceset name="C-0805" prefix="C">
+<description>CAP CER 10% X7R 0805</description>
 <gates>
-<gate name="G$1" symbol="C-0805" x="2.54" y="0"/>
+<gate name="G$1" symbol="C-0603" x="0" y="-5.08"/>
 </gates>
 <devices>
 <device name="" package="C-0805">
@@ -8727,6 +8803,104 @@ Source: http://eshop.phoenixcontact.com .. 1751251.pdf</description>
 <attribute name="MPN" value="LQM18PN2R2MFHD" constant="no"/>
 <attribute name="OCTOPART_URL" value="https://octopart.com/lqm18pn2r2mfhd-murata-46921411?r=sp&amp;s=Row_twtqSIqtu2tUWXcF8g#" constant="no"/>
 <attribute name="VALUE" value="2.2uH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WUERTH_ELEKTRONIK_74489430220" prefix="L">
+<description>Coupled inductor, 22 μH, 1.1 A, 0.48 ohm, SMD</description>
+<gates>
+<gate name="G$0" symbol="WUERTH_ELEKTRONIK_74489430220_0_0" x="0" y="0"/>
+</gates>
+<devices>
+<device name="WUERTH_ELEKTRONIK_74489430220_0_0" package="WUERTH_ELEKTRONIK_74489430220_0">
+<connects>
+<connect gate="G$0" pin="1" pad="1"/>
+<connect gate="G$0" pin="2" pad="2"/>
+<connect gate="G$0" pin="3" pad="3"/>
+<connect gate="G$0" pin="4" pad="4"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="CIIVA_IDS" value="906613"/>
+<attribute name="COMPONENT_LINK_1_DESCRIPTION" value="Manufacturer URL"/>
+<attribute name="COMPONENT_LINK_1_URL" value="http://www.we-online.com"/>
+<attribute name="DATASHEET" value="http://katalog.we-online.de/pbs/datasheet/74489430220.pdf"/>
+<attribute name="FOOTPRINT_VARIANT_NAME_0" value="Manufacturer Recommended"/>
+<attribute name="IMPORTED" value="yes"/>
+<attribute name="IMPORTED_FROM" value="vault"/>
+<attribute name="IMPORT_TS" value="1521847487"/>
+<attribute name="INDUCTANCE" value="22.0 ÂμH"/>
+<attribute name="MF" value="Wuerth Elektronik"/>
+<attribute name="MFN" value="Wuerth Elektronik" constant="no"/>
+<attribute name="MPN" value="74489430220"/>
+<attribute name="OCTOPART_URL" value="https://octopart.com/74489430220-w%C3%BCrth+elektronik-19122490?r=sp&amp;s=sZgvZhVdRiOvXPP3ZHNQng#" constant="no"/>
+<attribute name="PACKAGE" value="WE-TDC 8018"/>
+<attribute name="PREFIX" value="L"/>
+<attribute name="RELEASE_DATE" value="1421213019"/>
+<attribute name="VALUE" value="22uH" constant="no"/>
+<attribute name="VAULT_GUID" value="DC7281E7-2FA0-48B8-8A08-9B1522AF1AC9"/>
+<attribute name="VAULT_REVISION" value="AD34EA21-00F0-458B-A44F-F680A14C5CDA"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="VLMTG1300-GS08" prefix="D">
+<description>LED Uni-Color Green 530nm 2-Pin Chip 0603(1608Metric) T/R</description>
+<gates>
+<gate name="G$1" symbol="VLMS1300-GS08" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="VLMS1300-GS08">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MFN" value="Vishay" constant="no"/>
+<attribute name="MPN" value="VLMTG1300-GS08" constant="no"/>
+<attribute name="OCTOPART_URL" value="https://octopart.com/vlmtg1300-gs08-vishay-21709202" constant="no"/>
+<attribute name="VALUE" value="GREEN" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WUERTH_ELEKTRONIK_74404024100" prefix="L">
+<description>Inductor, Wirewound, Ferrite, 10 μH, 0.47 A, 0.435 ohm, SMD</description>
+<gates>
+<gate name="G$1" symbol="L-PULSE+" x="5.08" y="0"/>
+</gates>
+<devices>
+<device name="WUERTH_ELEKTRONIK_74404024100_0_0" package="WUERTH_ELEKTRONIK_74404024100_0">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="CIIVA_IDS" value="19365520"/>
+<attribute name="COMPONENT_LINK_1_DESCRIPTION" value="Manufacturer URL"/>
+<attribute name="COMPONENT_LINK_1_URL" value="http://www.we-online.com"/>
+<attribute name="DATASHEET" value="http://katalog.we-online.de/pbs/datasheet/74404024100.pdf"/>
+<attribute name="FOOTPRINT_VARIANT_NAME_0" value="Manufacturer Recommended"/>
+<attribute name="IMPORTED" value="yes"/>
+<attribute name="IMPORTED_FROM" value="vault"/>
+<attribute name="IMPORT_TS" value="1521847971"/>
+<attribute name="INDUCTANCE" value="10.0 ÂμH"/>
+<attribute name="MF" value="Wuerth Elektronik"/>
+<attribute name="MFN" value="Wuerth Elektronik" constant="no"/>
+<attribute name="MPN" value="74404024100"/>
+<attribute name="OCTOPART_URL" value="https://octopart.com/74404024100-w%C3%BCrth+elektronik-46948232?r=sp&amp;s=xErvwIUSShuUNbZJf5Tacg#CadModels" constant="no"/>
+<attribute name="PACKAGE" value="WE-LQS 252012"/>
+<attribute name="PREFIX" value="L"/>
+<attribute name="RELEASE_DATE" value="1421136684"/>
+<attribute name="VALUE" value="10uH" constant="no"/>
+<attribute name="VAULT_GUID" value="14C676CA-5921-489C-B22D-D02530F94C47"/>
+<attribute name="VAULT_REVISION" value="1C5BE5AF-1DED-48F4-87F1-C018B46CE48A"/>
 </technology>
 </technologies>
 </device>
