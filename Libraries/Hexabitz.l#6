@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -4122,6 +4122,29 @@ Source: http://www.taiwansemi.com .. 5205_0409c.pdf</description>
 </polygon>
 <text x="-3.2766" y="-0.635" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
 </package>
+<package name="TE_3-644456-2">
+<wire x1="-1.118" y1="-1.168" x2="-1.118" y2="1.168" width="0.127" layer="51"/>
+<wire x1="-1.118" y1="1.168" x2="3.658" y2="1.168" width="0.127" layer="51"/>
+<wire x1="3.658" y1="1.168" x2="3.658" y2="-1.168" width="0.127" layer="51"/>
+<wire x1="3.658" y1="-1.168" x2="-1.118" y2="-1.168" width="0.127" layer="51"/>
+<wire x1="-1.118" y1="-1.168" x2="-1.118" y2="-1.168" width="0.127" layer="51"/>
+<wire x1="-1.118" y1="-1.168" x2="3.658" y2="-1.168" width="0.127" layer="51"/>
+<wire x1="3.658" y1="-1.168" x2="3.658" y2="-1.168" width="0.127" layer="51"/>
+<wire x1="-1.118" y1="-1.168" x2="-1.118" y2="1.168" width="0.127" layer="21"/>
+<wire x1="3.658" y1="1.168" x2="3.658" y2="-1.168" width="0.127" layer="21"/>
+<wire x1="3.658" y1="1.168" x2="-1.118" y2="1.168" width="0.127" layer="21"/>
+<wire x1="3.658" y1="-1.168" x2="-1.118" y2="-1.168" width="0.127" layer="21"/>
+<wire x1="-1.368" y1="-1.418" x2="-1.368" y2="1.418" width="0.05" layer="39"/>
+<wire x1="-1.368" y1="1.418" x2="3.908" y2="1.418" width="0.05" layer="39"/>
+<wire x1="3.908" y1="1.418" x2="3.908" y2="-1.418" width="0.05" layer="39"/>
+<wire x1="3.908" y1="-1.418" x2="-1.368" y2="-1.418" width="0.05" layer="39"/>
+<text x="-2.118" y="2.418" size="1.27" layer="25">&gt;NAME</text>
+<text x="-2.118" y="-3.418" size="1.27" layer="27">&gt;VALUE</text>
+<circle x="-1.768" y="0" radius="0.1" width="0.2" layer="21"/>
+<circle x="-1.768" y="0" radius="0.1" width="0.2" layer="51"/>
+<pad name="1" x="0" y="0" drill="1.02" diameter="1.37" shape="square"/>
+<pad name="2" x="2.54" y="0" drill="1.02" diameter="1.37"/>
+</package>
 </packages>
 <packages3d>
 <package3d name="QFP50P2200X2200X160-144" urn="urn:adsk.eagle:package:7148528/1" type="model">
@@ -6047,6 +6070,16 @@ Source: http://www.taiwansemi.com .. 5205_0409c.pdf</description>
 <wire x1="-12.7" y1="15.24" x2="-12.7" y2="-15.24" width="0.2032" layer="94"/>
 <text x="-12.7" y="19.05" size="2.0828" layer="95" ratio="6" rot="SR0">&gt;Name</text>
 <text x="-12.7" y="16.51" size="2.0828" layer="96" ratio="6" rot="SR0">&gt;Value</text>
+</symbol>
+<symbol name="3-644456-2">
+<wire x1="2.54" y1="-3.81" x2="2.54" y2="3.81" width="0.254" layer="94"/>
+<wire x1="2.54" y1="3.81" x2="-3.81" y2="3.81" width="0.254" layer="94"/>
+<wire x1="-3.81" y1="3.81" x2="-3.81" y2="-3.81" width="0.254" layer="94"/>
+<wire x1="-3.81" y1="-3.81" x2="2.54" y2="-3.81" width="0.254" layer="94"/>
+<text x="4.31" y="3.81" size="1.778" layer="95" rot="MR0">&gt;NAME</text>
+<text x="3.81" y="-6.35" size="1.778" layer="96" rot="MR0">&gt;VALUE</text>
+<pin name="1" x="7.62" y="1.27" length="middle" direction="pas" rot="R180"/>
+<pin name="2" x="7.62" y="-1.27" length="middle" direction="pas" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -9145,13 +9178,40 @@ Source: http://eshop.phoenixcontact.com .. 1751251.pdf</description>
 <attribute name="MANUFACTURER" value="Texas Instruments" constant="no"/>
 <attribute name="MFN" value="Texas Instruments" constant="no"/>
 <attribute name="MPN" value="LM2775QDSGRQ1" constant="no"/>
-<attribute name="OCTOPART_URL" value="
-https://octopart.com/lm2775qdsgrq1-texas+instruments-93339195?r=sp&amp;s=OA7oim0HQqaBsU4tLKFWXg
-LM2775QDSGRQ1" constant="no"/>
+<attribute name="OCTOPART_URL" value=" https://octopart.com/lm2775qdsgrq1-texas+instruments-93339195?r=sp&amp;s=OA7oim0HQqaBsU4tLKFWXg LM2775QDSGRQ1" constant="no"/>
 <attribute name="PARTNUMBER" value="LM2775QDSGRQ1" constant="no"/>
 <attribute name="REFDES" value="RefDes" constant="no"/>
 <attribute name="TYPE" value="TYPE" constant="no"/>
 <attribute name="VALUE" value="LM2775-Q1" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="3-644456-2" prefix="J">
+<gates>
+<gate name="G$1" symbol="3-644456-2" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="TE_3-644456-2">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="AVAILABILITY" value="Unavailable"/>
+<attribute name="CENTERLINE_PITCH" value="2.54 mm[.1 in]"/>
+<attribute name="COMMENT" value="3-644456-2"/>
+<attribute name="DESCRIPTION" value=" Connector Unshrouded Header HDR 2 Position 2.54mm Solder Straight Thru-Hole "/>
+<attribute name="EU_ROHS_COMPLIANCE" value="Compliant"/>
+<attribute name="MF" value="TE Connectivity"/>
+<attribute name="MP" value="3-644456-2"/>
+<attribute name="NUMBER_OF_POSITIONS" value="2"/>
+<attribute name="PACKAGE" value="None"/>
+<attribute name="PRICE" value="None"/>
+<attribute name="PRODUCT_TYPE" value="Connector"/>
+<attribute name="TE_PURCHASE_URL" value="https://www.te.com/usa-en/product-3-644456-2.html?te_bu=Cor&amp;te_type=disp&amp;te_campaign=seda_glo_cor-seda-global-disp-prtnr-fy19-seda-model-bom-cta_sma-317_1&amp;elqCampaignId=32493"/>
 </technology>
 </technologies>
 </device>
