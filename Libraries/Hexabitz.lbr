@@ -4523,6 +4523,85 @@ body 4x4mm, pitch 0.65mm</description>
 <wire x1="1.143" y1="1.27" x2="1.143" y2="-1.27" width="0.1524" layer="51"/>
 <wire x1="1.143" y1="1.27" x2="1.143" y2="-1.27" width="0.1524" layer="21"/>
 </package>
+<package name="REF193GSZ_0">
+<description>ADI-REF19X-8</description>
+<wire x1="-1" y1="-2.5" x2="1" y2="-2.5" width="0.15" layer="21"/>
+<wire x1="-1" y1="2.5" x2="1" y2="2.5" width="0.15" layer="21"/>
+<wire x1="1" y1="-2.5" x2="1" y2="2.5" width="0.15" layer="21"/>
+<wire x1="-1" y1="-2.5" x2="-1" y2="2.5" width="0.15" layer="21"/>
+<wire x1="-2" y1="-2.5" x2="2" y2="-2.5" width="0.1" layer="51"/>
+<wire x1="-2" y1="2.5" x2="2" y2="2.5" width="0.1" layer="51"/>
+<wire x1="2" y1="-2.5" x2="2" y2="2.5" width="0.1" layer="51"/>
+<wire x1="-2" y1="-2.5" x2="-2" y2="2.5" width="0.1" layer="51"/>
+<wire x1="-3.4" y1="-2.6" x2="-3.4" y2="2.6" width="0.1" layer="39"/>
+<wire x1="-3.4" y1="2.6" x2="3.4" y2="2.6" width="0.1" layer="39"/>
+<wire x1="3.4" y1="2.6" x2="3.4" y2="-2.6" width="0.1" layer="39"/>
+<wire x1="3.4" y1="-2.6" x2="-3.4" y2="-2.6" width="0.1" layer="39"/>
+<text x="-4.4" y="2.88" size="1" layer="25">&gt;NAME</text>
+<circle x="-0.2" y="1.7" radius="0.2" width="0.4" layer="21"/>
+<circle x="-2.35" y="2.755" radius="0.125" width="0.25" layer="21"/>
+<circle x="-1.1" y="1.6" radius="0.5" width="0.1" layer="51"/>
+<smd name="5" x="2.35" y="-1.905" dx="0.6" dy="1.9" layer="1" roundness="100" rot="R90"/>
+<smd name="6" x="2.35" y="-0.635" dx="0.6" dy="1.9" layer="1" roundness="100" rot="R90"/>
+<smd name="7" x="2.35" y="0.635" dx="0.6" dy="1.9" layer="1" roundness="100" rot="R90"/>
+<smd name="8" x="2.35" y="1.905" dx="0.6" dy="1.9" layer="1" roundness="100" rot="R90"/>
+<smd name="4" x="-2.35" y="-1.905" dx="0.6" dy="1.9" layer="1" roundness="100" rot="R90"/>
+<smd name="3" x="-2.35" y="-0.635" dx="0.6" dy="1.9" layer="1" roundness="100" rot="R90"/>
+<smd name="2" x="-2.35" y="0.635" dx="0.6" dy="1.9" layer="1" roundness="100" rot="R90"/>
+<smd name="1" x="-2.35" y="1.905" dx="0.6" dy="1.9" layer="1" roundness="100" rot="R90"/>
+</package>
+<package name="REF193GSZ_1">
+<description>ADI-REF19X-8</description>
+<wire x1="-0.9" y1="-2.5" x2="0.9" y2="-2.5" width="0.15" layer="21"/>
+<wire x1="-0.9" y1="2.5" x2="0.9" y2="2.5" width="0.15" layer="21"/>
+<wire x1="0.9" y1="-2.5" x2="0.9" y2="2.5" width="0.15" layer="21"/>
+<wire x1="-0.9" y1="-2.5" x2="-0.9" y2="2.5" width="0.15" layer="21"/>
+<wire x1="-2" y1="-2.5" x2="2" y2="-2.5" width="0.1" layer="51"/>
+<wire x1="-2" y1="2.5" x2="2" y2="2.5" width="0.1" layer="51"/>
+<wire x1="2" y1="-2.5" x2="2" y2="2.5" width="0.1" layer="51"/>
+<wire x1="-2" y1="-2.5" x2="-2" y2="2.5" width="0.1" layer="51"/>
+<wire x1="-3.75" y1="-2.75" x2="-3.75" y2="2.75" width="0.1" layer="39"/>
+<wire x1="-3.75" y1="2.75" x2="3.75" y2="2.75" width="0.1" layer="39"/>
+<wire x1="3.75" y1="2.75" x2="3.75" y2="-2.75" width="0.1" layer="39"/>
+<wire x1="3.75" y1="-2.75" x2="-3.75" y2="-2.75" width="0.1" layer="39"/>
+<text x="-4.75" y="2.88" size="1" layer="25">&gt;NAME</text>
+<circle x="-2.4" y="2.755" radius="0.125" width="0.25" layer="21"/>
+<circle x="-1.1" y="1.6" radius="0.5" width="0.1" layer="51"/>
+<smd name="5" x="2.4" y="-1.905" dx="0.6" dy="2.2" layer="1" roundness="100" rot="R90"/>
+<smd name="6" x="2.4" y="-0.635" dx="0.6" dy="2.2" layer="1" roundness="100" rot="R90"/>
+<smd name="7" x="2.4" y="0.635" dx="0.6" dy="2.2" layer="1" roundness="100" rot="R90"/>
+<smd name="8" x="2.4" y="1.905" dx="0.6" dy="2.2" layer="1" roundness="100" rot="R90"/>
+<smd name="4" x="-2.4" y="-1.905" dx="0.6" dy="2.2" layer="1" roundness="100" rot="R90"/>
+<smd name="3" x="-2.4" y="-0.635" dx="0.6" dy="2.2" layer="1" roundness="100" rot="R90"/>
+<smd name="2" x="-2.4" y="0.635" dx="0.6" dy="2.2" layer="1" roundness="100" rot="R90"/>
+<smd name="1" x="-2.4" y="1.905" dx="0.6" dy="2.2" layer="1" roundness="100" rot="R90"/>
+</package>
+<package name="REF193GSZ_2">
+<description>ADI-REF19X-8</description>
+<wire x1="-0.8" y1="-2.5" x2="0.8" y2="-2.5" width="0.15" layer="21"/>
+<wire x1="-0.8" y1="2.5" x2="0.8" y2="2.5" width="0.15" layer="21"/>
+<wire x1="0.8" y1="-2.5" x2="0.8" y2="2.5" width="0.15" layer="21"/>
+<wire x1="-0.8" y1="-2.5" x2="-0.8" y2="2.5" width="0.15" layer="21"/>
+<wire x1="-2" y1="-2.5" x2="2" y2="-2.5" width="0.1" layer="51"/>
+<wire x1="-2" y1="2.5" x2="2" y2="2.5" width="0.1" layer="51"/>
+<wire x1="2" y1="-2.5" x2="2" y2="2.5" width="0.1" layer="51"/>
+<wire x1="-2" y1="-2.5" x2="-2" y2="2.5" width="0.1" layer="51"/>
+<wire x1="-4.2" y1="-3" x2="-4.2" y2="3" width="0.1" layer="39"/>
+<wire x1="-4.2" y1="3" x2="4.2" y2="3" width="0.1" layer="39"/>
+<wire x1="4.2" y1="3" x2="4.2" y2="-3" width="0.1" layer="39"/>
+<wire x1="4.2" y1="-3" x2="-4.2" y2="-3" width="0.1" layer="39"/>
+<text x="-5.2" y="3" size="1" layer="25">&gt;NAME</text>
+<circle x="-2.45" y="2.805" radius="0.125" width="0.25" layer="21"/>
+<circle x="-1.1" y="1.6" radius="0.5" width="0.1" layer="51"/>
+<smd name="5" x="2.45" y="-1.905" dx="0.7" dy="2.5" layer="1" roundness="100" rot="R90"/>
+<smd name="6" x="2.45" y="-0.635" dx="0.7" dy="2.5" layer="1" roundness="100" rot="R90"/>
+<smd name="7" x="2.45" y="0.635" dx="0.7" dy="2.5" layer="1" roundness="100" rot="R90"/>
+<smd name="8" x="2.45" y="1.905" dx="0.7" dy="2.5" layer="1" roundness="100" rot="R90"/>
+<smd name="4" x="-2.45" y="-1.905" dx="0.7" dy="2.5" layer="1" roundness="100" rot="R90"/>
+<smd name="3" x="-2.45" y="-0.635" dx="0.7" dy="2.5" layer="1" roundness="100" rot="R90"/>
+<smd name="2" x="-2.45" y="0.635" dx="0.7" dy="2.5" layer="1" roundness="100" rot="R90"/>
+<smd name="1" x="-2.45" y="1.905" dx="0.7" dy="2.5" layer="1" roundness="100" rot="R90"/>
+</package>
 </packages>
 <packages3d>
 <package3d name="QFP50P2200X2200X160-144" urn="urn:adsk.eagle:package:7148528/1" type="model">
@@ -6572,6 +6651,23 @@ Source: http://www.taiwansemi.com .. 5205_0409c.pdf</description>
 <pin name="-IN" x="-17.78" y="5.08" length="middle" direction="in"/>
 <pin name="-VS" x="-1.27" y="-15.24" length="middle" direction="pwr" rot="R90"/>
 <pin name="OUT" x="27.94" y="2.54" length="middle" direction="out" rot="R180"/>
+</symbol>
+<symbol name="REF193GSZ_0_0">
+<description>ADI-REF19X-8</description>
+<wire x1="-10.16" y1="-10.16" x2="-10.16" y2="7.62" width="0.508" layer="94"/>
+<wire x1="-10.16" y1="7.62" x2="10.16" y2="7.62" width="0.508" layer="94"/>
+<wire x1="10.16" y1="7.62" x2="10.16" y2="-10.16" width="0.508" layer="94"/>
+<wire x1="10.16" y1="-10.16" x2="-10.16" y2="-10.16" width="0.508" layer="94"/>
+<text x="-10.16" y="11.43" size="2.54" layer="95" align="top-left">&gt;NAME</text>
+<pin name="1_TP" x="-15.24" y="0" length="middle" direction="pas"/>
+<pin name="VS" x="-15.24" y="-7.62" length="middle" direction="pwr"/>
+<pin name="!SLEEP!" x="-15.24" y="5.08" length="middle" direction="in"/>
+<pin name="GND" x="15.24" y="-7.62" length="middle" direction="pwr" rot="R180"/>
+<pin name="2_TP" x="-15.24" y="-2.54" length="middle" direction="pas"/>
+<pin name="OUTPUT" x="15.24" y="5.08" length="middle" direction="hiz" rot="R180"/>
+<pin name="1_NC" x="15.24" y="0" length="middle" direction="pas" rot="R180"/>
+<pin name="2_NC" x="15.24" y="-2.54" length="middle" direction="pas" rot="R180"/>
+<text x="-10.16" y="-11.43" size="2.54" layer="96" align="top-left">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -9921,6 +10017,155 @@ Source: &lt;a href="http://docs-europe.electrocomponents.com/webdocs/13c4/090076
 <attribute name="MFN" value="Analog Devices"/>
 <attribute name="MPN" value="AD628ARZ"/>
 <attribute name="OCTOPART_URL" value="https://octopart.com/ad628arz-analog+devices-410882" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="REF193GSZ" prefix="U">
+<description>Voltage Reference Precision 3 Volt 30 mA 8-Pin SOIC N</description>
+<gates>
+<gate name="G$0" symbol="REF193GSZ_0_0" x="0" y="0"/>
+</gates>
+<devices>
+<device name="ANALOG_DEVICES_REF193GSZ_0_0" package="REF193GSZ_0">
+<connects>
+<connect gate="G$0" pin="!SLEEP!" pad="3"/>
+<connect gate="G$0" pin="1_NC" pad="7"/>
+<connect gate="G$0" pin="1_TP" pad="1"/>
+<connect gate="G$0" pin="2_NC" pad="8"/>
+<connect gate="G$0" pin="2_TP" pad="5"/>
+<connect gate="G$0" pin="GND" pad="4"/>
+<connect gate="G$0" pin="OUTPUT" pad="6"/>
+<connect gate="G$0" pin="VS" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="CIIVA_IDS" value="1469357"/>
+<attribute name="CODE__JEDEC" value="MS-012-AA"/>
+<attribute name="COMPONENT_LINK_1_DESCRIPTION" value="Manufacturer URL"/>
+<attribute name="COMPONENT_LINK_1_URL" value="http://www.analog.com/en/index.html"/>
+<attribute name="COMPONENT_LINK_3_DESCRIPTION" value="Package Specification"/>
+<attribute name="COMPONENT_LINK_3_URL" value="http://www.analog.com/static/imported-files/packages/PKG_PDF/SOIC_Narrow%20(R)/R_8.pdf"/>
+<attribute name="COMPONENT_LINK_4_DESCRIPTION" value="URL Link1"/>
+<attribute name="COMPONENT_LINK_4_URL" value="Product URL:http://www.analog.com/en/special-linear-functions/voltage-references/ref193/products/product.html"/>
+<attribute name="DATASHEET" value="http://www.analog.com/static/imported-files/data_sheets/REF19xSeries.pdf"/>
+<attribute name="DATASHEET_VERSION" value="Rev. L"/>
+<attribute name="FOOTPRINT_VARIANT_NAME_0" value="Level C"/>
+<attribute name="FOOTPRINT_VARIANT_NAME_1" value="Level B"/>
+<attribute name="FOOTPRINT_VARIANT_NAME_2" value="Level A"/>
+<attribute name="IMPORTED" value="yes"/>
+<attribute name="IMPORTED_FROM" value="vault"/>
+<attribute name="IMPORT_TS" value="1521842982"/>
+<attribute name="MF" value="Analog Devices"/>
+<attribute name="MOUNTING_TECHNOLOGY" value="Surface Mount"/>
+<attribute name="MPN" value="REF193GSZ"/>
+<attribute name="OPERATING_TEMP_RANGE" value="-40 to 85 degC"/>
+<attribute name="PACKAGE" value="R-8"/>
+<attribute name="PACKAGE_DESCRIPTION" value="8-Pin Standard Small Outline Package, Body 4.9 x 3.9 mm, Pitch 1.27 mm"/>
+<attribute name="PACKAGE_VERSION" value="060506-A, 06/2006"/>
+<attribute name="PACKING" value="Tube"/>
+<attribute name="PREFIX" value="U"/>
+<attribute name="REF_OUT_TC_PPMC" value="10"/>
+<attribute name="RELEASE_DATE" value="1391075971"/>
+<attribute name="VAULT_GUID" value="FC942A52-93FB-4AF8-8F74-609386AD564E"/>
+<attribute name="VAULT_REVISION" value="2DC20313-3ADB-4367-AA8D-75F47160B3A1"/>
+<attribute name="VOUT" value="3V"/>
+</technology>
+</technologies>
+</device>
+<device name="ANALOG_DEVICES_REF193GSZ_0_1" package="REF193GSZ_1">
+<connects>
+<connect gate="G$0" pin="!SLEEP!" pad="3"/>
+<connect gate="G$0" pin="1_NC" pad="7"/>
+<connect gate="G$0" pin="1_TP" pad="1"/>
+<connect gate="G$0" pin="2_NC" pad="8"/>
+<connect gate="G$0" pin="2_TP" pad="5"/>
+<connect gate="G$0" pin="GND" pad="4"/>
+<connect gate="G$0" pin="OUTPUT" pad="6"/>
+<connect gate="G$0" pin="VS" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="CIIVA_IDS" value="1469357"/>
+<attribute name="CODE__JEDEC" value="MS-012-AA"/>
+<attribute name="COMPONENT_LINK_1_DESCRIPTION" value="Manufacturer URL"/>
+<attribute name="COMPONENT_LINK_1_URL" value="http://www.analog.com/en/index.html"/>
+<attribute name="COMPONENT_LINK_3_DESCRIPTION" value="Package Specification"/>
+<attribute name="COMPONENT_LINK_3_URL" value="http://www.analog.com/static/imported-files/packages/PKG_PDF/SOIC_Narrow%20(R)/R_8.pdf"/>
+<attribute name="COMPONENT_LINK_4_DESCRIPTION" value="URL Link1"/>
+<attribute name="COMPONENT_LINK_4_URL" value="Product URL:http://www.analog.com/en/special-linear-functions/voltage-references/ref193/products/product.html"/>
+<attribute name="DATASHEET" value="http://www.analog.com/static/imported-files/data_sheets/REF19xSeries.pdf"/>
+<attribute name="DATASHEET_VERSION" value="Rev. L"/>
+<attribute name="FOOTPRINT_VARIANT_NAME_0" value="Level C"/>
+<attribute name="FOOTPRINT_VARIANT_NAME_1" value="Level B"/>
+<attribute name="FOOTPRINT_VARIANT_NAME_2" value="Level A"/>
+<attribute name="IMPORTED" value="yes"/>
+<attribute name="IMPORTED_FROM" value="vault"/>
+<attribute name="IMPORT_TS" value="1521842982"/>
+<attribute name="MF" value="Analog Devices"/>
+<attribute name="MFN" value="Analog Devices" constant="no"/>
+<attribute name="MOUNTING_TECHNOLOGY" value="Surface Mount"/>
+<attribute name="MPN" value="REF193GSZ"/>
+<attribute name="OCTOPART_URL" value="https://octopart.com/ref193gsz-analog+devices-524457#" constant="no"/>
+<attribute name="OPERATING_TEMP_RANGE" value="-40 to 85 degC"/>
+<attribute name="PACKAGE" value="R-8"/>
+<attribute name="PACKAGE_DESCRIPTION" value="8-Pin Standard Small Outline Package, Body 4.9 x 3.9 mm, Pitch 1.27 mm"/>
+<attribute name="PACKAGE_VERSION" value="060506-A, 06/2006"/>
+<attribute name="PACKING" value="Tube"/>
+<attribute name="PREFIX" value="U"/>
+<attribute name="REF_OUT_TC_PPMC" value="10"/>
+<attribute name="RELEASE_DATE" value="1391075971"/>
+<attribute name="VALUE" value="REF193GSZ" constant="no"/>
+<attribute name="VAULT_GUID" value="FC942A52-93FB-4AF8-8F74-609386AD564E"/>
+<attribute name="VAULT_REVISION" value="2DC20313-3ADB-4367-AA8D-75F47160B3A1"/>
+<attribute name="VOUT" value="3V"/>
+</technology>
+</technologies>
+</device>
+<device name="ANALOG_DEVICES_REF193GSZ_0_2" package="REF193GSZ_2">
+<connects>
+<connect gate="G$0" pin="!SLEEP!" pad="3"/>
+<connect gate="G$0" pin="1_NC" pad="7"/>
+<connect gate="G$0" pin="1_TP" pad="1"/>
+<connect gate="G$0" pin="2_NC" pad="8"/>
+<connect gate="G$0" pin="2_TP" pad="5"/>
+<connect gate="G$0" pin="GND" pad="4"/>
+<connect gate="G$0" pin="OUTPUT" pad="6"/>
+<connect gate="G$0" pin="VS" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="CIIVA_IDS" value="1469357"/>
+<attribute name="CODE__JEDEC" value="MS-012-AA"/>
+<attribute name="COMPONENT_LINK_1_DESCRIPTION" value="Manufacturer URL"/>
+<attribute name="COMPONENT_LINK_1_URL" value="http://www.analog.com/en/index.html"/>
+<attribute name="COMPONENT_LINK_3_DESCRIPTION" value="Package Specification"/>
+<attribute name="COMPONENT_LINK_3_URL" value="http://www.analog.com/static/imported-files/packages/PKG_PDF/SOIC_Narrow%20(R)/R_8.pdf"/>
+<attribute name="COMPONENT_LINK_4_DESCRIPTION" value="URL Link1"/>
+<attribute name="COMPONENT_LINK_4_URL" value="Product URL:http://www.analog.com/en/special-linear-functions/voltage-references/ref193/products/product.html"/>
+<attribute name="DATASHEET" value="http://www.analog.com/static/imported-files/data_sheets/REF19xSeries.pdf"/>
+<attribute name="DATASHEET_VERSION" value="Rev. L"/>
+<attribute name="FOOTPRINT_VARIANT_NAME_0" value="Level C"/>
+<attribute name="FOOTPRINT_VARIANT_NAME_1" value="Level B"/>
+<attribute name="FOOTPRINT_VARIANT_NAME_2" value="Level A"/>
+<attribute name="IMPORTED" value="yes"/>
+<attribute name="IMPORTED_FROM" value="vault"/>
+<attribute name="IMPORT_TS" value="1521842982"/>
+<attribute name="MF" value="Analog Devices"/>
+<attribute name="MOUNTING_TECHNOLOGY" value="Surface Mount"/>
+<attribute name="MPN" value="REF193GSZ"/>
+<attribute name="OPERATING_TEMP_RANGE" value="-40 to 85 degC"/>
+<attribute name="PACKAGE" value="R-8"/>
+<attribute name="PACKAGE_DESCRIPTION" value="8-Pin Standard Small Outline Package, Body 4.9 x 3.9 mm, Pitch 1.27 mm"/>
+<attribute name="PACKAGE_VERSION" value="060506-A, 06/2006"/>
+<attribute name="PACKING" value="Tube"/>
+<attribute name="PREFIX" value="U"/>
+<attribute name="REF_OUT_TC_PPMC" value="10"/>
+<attribute name="RELEASE_DATE" value="1391075971"/>
+<attribute name="VAULT_GUID" value="FC942A52-93FB-4AF8-8F74-609386AD564E"/>
+<attribute name="VAULT_REVISION" value="2DC20313-3ADB-4367-AA8D-75F47160B3A1"/>
+<attribute name="VOUT" value="3V"/>
 </technology>
 </technologies>
 </device>
