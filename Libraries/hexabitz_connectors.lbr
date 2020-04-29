@@ -40,7 +40,7 @@
 <layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
@@ -4671,11 +4671,57 @@
 </package>
 <package name="HEXABIT_BUS_ADAPTER">
 <wire x1="-8.66" y1="-15" x2="8.66" y2="-15" width="0.1" layer="20"/>
+<wire x1="8.66" y1="-15" x2="17.3355" y2="0.0381" width="0.1" layer="20"/>
+<wire x1="-17.32" y1="0" x2="-8.66" y2="-15" width="0.1" layer="20"/>
+<wire x1="-17.32" y1="0" x2="-17.32" y2="13.3985" width="0.1" layer="20"/>
+<wire x1="-17.32" y1="13.3985" x2="17.3355" y2="13.3985" width="0.1" layer="20"/>
+<wire x1="17.3355" y1="13.3985" x2="17.3355" y2="0.0381" width="0.1" layer="20"/>
+</package>
+<package name="HEXABIT_BUS_ADAPTER_WITH_P2_P4">
+<wire x1="-8.66" y1="-15" x2="8.66" y2="-15" width="0.1" layer="20"/>
 <wire x1="8.66" y1="-15" x2="17.32" y2="0" width="0.1" layer="20"/>
 <wire x1="-17.32" y1="0" x2="-8.66" y2="-15" width="0.1" layer="20"/>
-<wire x1="-17.3355" y1="0" x2="-17.3355" y2="13.3985" width="0.1" layer="20"/>
-<wire x1="-17.3355" y1="13.3985" x2="17.3355" y2="13.3985" width="0.1" layer="20"/>
-<wire x1="17.3355" y1="13.3985" x2="17.3355" y2="0" width="0.1" layer="20"/>
+<smd name="PAD_PU2" x="12.39" y="-7.15" dx="1" dy="1" layer="1" roundness="100" cream="no"/>
+<polygon width="0.1" layer="1">
+<vertex x="14.34" y="-5.16" curve="180"/>
+<vertex x="11.64" y="-9.84"/>
+</polygon>
+<smd name="PAD_PD2" x="12.39" y="-7.15" dx="1" dy="1" layer="16" roundness="100" cream="no"/>
+<polygon width="0.1" layer="16">
+<vertex x="14.34" y="-5.16" curve="180"/>
+<vertex x="11.64" y="-9.84"/>
+</polygon>
+<polygon width="0.1" layer="29">
+<vertex x="13.84" y="-6.03" curve="180"/>
+<vertex x="12.14" y="-8.97"/>
+</polygon>
+<polygon width="0.1" layer="30">
+<vertex x="13.84" y="-6.03" curve="180"/>
+<vertex x="12.14" y="-8.97"/>
+</polygon>
+<smd name="PAD_PU4" x="-12.39" y="-7.15" dx="1" dy="1" layer="1" roundness="100" cream="no"/>
+<polygon width="0.1" layer="1">
+<vertex x="-11.64" y="-9.84" curve="180"/>
+<vertex x="-14.34" y="-5.16"/>
+</polygon>
+<smd name="PAD_PD4" x="-12.39" y="-7.15" dx="1" dy="1" layer="16" roundness="100" cream="no"/>
+<polygon width="0.1" layer="16">
+<vertex x="-11.64" y="-9.84" curve="180"/>
+<vertex x="-14.34" y="-5.16"/>
+</polygon>
+<polygon width="0.1" layer="29">
+<vertex x="-12.14" y="-8.97" curve="180"/>
+<vertex x="-13.84" y="-6.03"/>
+</polygon>
+<polygon width="0.1" layer="30">
+<vertex x="-12.14" y="-8.97" curve="180"/>
+<vertex x="-13.84" y="-6.03"/>
+</polygon>
+<wire x1="-17.32" y1="0" x2="-17.32" y2="15" width="0.1" layer="20"/>
+<wire x1="17.32" y1="0" x2="17.32" y2="15" width="0.1" layer="20"/>
+<wire x1="-17.32" y1="15" x2="17.32" y2="15" width="0.1" layer="20"/>
+<hole x="-8.89" y="-3.81" drill="2.5"/>
+<hole x="8.89" y="-3.81" drill="2.5"/>
 </package>
 </packages>
 <symbols>
@@ -5527,6 +5573,30 @@
 <text x="-5.08" y="7.62" size="3.81" layer="94">bus_adapeter
 </text>
 </symbol>
+<symbol name="HEXABIT_BUS_ADAPTER_WITH_P2_P4">
+<wire x1="-20.32" y1="-33.02" x2="-10.16" y2="-33.02" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-33.02" x2="-10.16" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-2.54" x2="-20.32" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-20.32" y1="-2.54" x2="-20.32" y2="-33.02" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-33.02" x2="17.78" y2="-33.02" width="0.254" layer="94"/>
+<wire x1="17.78" y1="-33.02" x2="17.78" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="17.78" y1="-2.54" x2="7.62" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-2.54" x2="7.62" y2="-33.02" width="0.254" layer="94"/>
+<wire x1="-20.32" y1="2.54" x2="-10.16" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="2.54" x2="-10.16" y2="33.02" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="33.02" x2="-20.32" y2="33.02" width="0.254" layer="94"/>
+<wire x1="-20.32" y1="33.02" x2="-20.32" y2="2.54" width="0.254" layer="94"/>
+<wire x1="7.62" y1="2.54" x2="17.78" y2="2.54" width="0.254" layer="94"/>
+<wire x1="17.78" y1="2.54" x2="17.78" y2="33.02" width="0.254" layer="94"/>
+<wire x1="17.78" y1="33.02" x2="7.62" y2="33.02" width="0.254" layer="94"/>
+<wire x1="7.62" y1="33.02" x2="7.62" y2="2.54" width="0.254" layer="94"/>
+<pin name="SU2" x="22.86" y="25.4" visible="pin" length="middle" rot="R180"/>
+<pin name="SU4" x="22.86" y="15.24" visible="pin" length="middle" rot="R180"/>
+<pin name="SD2" x="22.86" y="-10.16" visible="pin" length="middle" rot="R180"/>
+<pin name="SD4" x="22.86" y="-20.32" visible="pin" length="middle" rot="R180"/>
+<text x="-20.32" y="38.1" size="1.778" layer="95">&gt;NAME</text>
+<text x="-20.32" y="35.56" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="HEXABIT_17.32_TOP_HALF" prefix="P">
@@ -6280,6 +6350,24 @@
 </gates>
 <devices>
 <device name="" package="HEXABIT_BUS_ADAPTER">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="HEXABIT_BUS_ADAPTER_WITH_PD2_PD4_PD9_PD10">
+<gates>
+<gate name="G$1" symbol="HEXABIT_BUS_ADAPTER_WITH_P2_P4" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="HEXABIT_BUS_ADAPTER_WITH_P2_P4">
+<connects>
+<connect gate="G$1" pin="SD2" pad="PAD_PD2"/>
+<connect gate="G$1" pin="SD4" pad="PAD_PD4"/>
+<connect gate="G$1" pin="SU2" pad="PAD_PU2"/>
+<connect gate="G$1" pin="SU4" pad="PAD_PU4"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
