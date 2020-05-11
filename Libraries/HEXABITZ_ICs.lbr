@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.6.0">
+<eagle version="9.6.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -2392,6 +2392,43 @@ Source: http://www.taiwansemi.com .. 5205_0409c.pdf</description>
 <smd name="2" x="-2.45" y="0.635" dx="0.7" dy="2.5" layer="1" roundness="100" rot="R90"/>
 <smd name="1" x="-2.45" y="1.905" dx="0.7" dy="2.5" layer="1" roundness="100" rot="R90"/>
 </package>
+<package name="XDCR_ACS781LLRTR-100U-T" urn="urn:adsk.eagle:footprint:19857062/1">
+<wire x1="-2.4" y1="3.2" x2="2.4" y2="3.2" width="0.127" layer="51"/>
+<wire x1="2.4" y1="3.2" x2="2.4" y2="-3.2" width="0.127" layer="51"/>
+<wire x1="2.4" y1="-3.2" x2="-2.4" y2="-3.2" width="0.127" layer="51"/>
+<wire x1="-2.4" y1="-3.2" x2="-2.4" y2="3.2" width="0.127" layer="51"/>
+<wire x1="2.4" y1="2.7" x2="2.4" y2="3.2" width="0.127" layer="21"/>
+<wire x1="2.4" y1="3.2" x2="0.6" y2="3.2" width="0.127" layer="21"/>
+<wire x1="2.4" y1="-2.7" x2="2.4" y2="-3.2" width="0.127" layer="21"/>
+<wire x1="2.4" y1="-3.2" x2="0.6" y2="-3.2" width="0.127" layer="21"/>
+<wire x1="-0.6" y1="-3.2" x2="-2.4" y2="-3.2" width="0.127" layer="21"/>
+<wire x1="-2.4" y1="-3.2" x2="-2.4" y2="-2.2" width="0.127" layer="21"/>
+<wire x1="-0.6" y1="3.2" x2="-2.4" y2="3.2" width="0.127" layer="21"/>
+<wire x1="-2.4" y1="3.2" x2="-2.4" y2="2.2" width="0.127" layer="21"/>
+<wire x1="-2.7" y1="3.5" x2="2.7" y2="3.5" width="0.05" layer="39"/>
+<wire x1="2.7" y1="3.5" x2="2.7" y2="2.65" width="0.05" layer="39"/>
+<wire x1="2.7" y1="2.65" x2="3.45" y2="2.65" width="0.05" layer="39"/>
+<wire x1="3.45" y1="2.65" x2="3.45" y2="-2.65" width="0.05" layer="39"/>
+<wire x1="3.45" y1="-2.65" x2="2.7" y2="-2.65" width="0.05" layer="39"/>
+<wire x1="2.7" y1="-2.65" x2="2.7" y2="-3.5" width="0.05" layer="39"/>
+<wire x1="2.7" y1="-3.5" x2="-2.65" y2="-3.5" width="0.05" layer="39"/>
+<wire x1="-2.65" y1="-3.5" x2="-2.65" y2="-2.15" width="0.05" layer="39"/>
+<wire x1="-2.65" y1="-2.15" x2="-3.55" y2="-2.15" width="0.05" layer="39"/>
+<wire x1="-3.55" y1="-2.15" x2="-3.55" y2="2.1" width="0.05" layer="39"/>
+<wire x1="-3.55" y1="2.1" x2="-2.7" y2="2.1" width="0.05" layer="39"/>
+<wire x1="-2.7" y1="2.1" x2="-2.7" y2="3.5" width="0.05" layer="39"/>
+<text x="-2.5" y="3.5" size="1.016" layer="25">&gt;NAME</text>
+<text x="-2.3" y="-4.5" size="1.016" layer="27">&gt;VALUE</text>
+<circle x="-3" y="2.4" radius="0.1" width="0.2" layer="21"/>
+<circle x="-3" y="2.4" radius="0.1" width="0.2" layer="51"/>
+<smd name="5" x="2.35" y="-1.5" dx="1.8" dy="1.7" layer="1" rot="R90"/>
+<smd name="1" x="-2.5" y="1.6" dx="0.5" dy="1.6" layer="1" rot="R90"/>
+<smd name="4" x="0" y="-2.8" dx="0.9" dy="0.6" layer="1" rot="R90"/>
+<smd name="2" x="-2.5" y="0" dx="0.5" dy="1.6" layer="1" rot="R90"/>
+<smd name="3" x="-2.5" y="-1.6" dx="0.5" dy="1.6" layer="1" rot="R90"/>
+<smd name="6" x="2.35" y="1.5" dx="1.8" dy="1.7" layer="1" rot="R90"/>
+<smd name="7" x="0" y="2.8" dx="0.9" dy="0.6" layer="1" rot="R90"/>
+</package>
 </packages>
 <packages3d>
 <package3d name="QFP50P2200X2200X160-144" urn="urn:adsk.eagle:package:7148528/1" type="model">
@@ -2421,6 +2458,11 @@ Source: http://www.taiwansemi.com .. 5205_0409c.pdf</description>
 &lt;p&gt;8-pin SOP package with 2.54 mm pitch, 10.20 mm span with body size 9.78 X 6.40 X 3.40 mm&lt;/p&gt;</description>
 <packageinstances>
 <packageinstance name="AQH3213A"/>
+</packageinstances>
+</package3d>
+<package3d name="XDCR_ACS781LLRTR-100U-T" urn="urn:adsk.eagle:package:19857063/2" type="model">
+<packageinstances>
+<packageinstance name="XDCR_ACS781LLRTR-100U-T"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -3531,6 +3573,20 @@ Source: http://www.taiwansemi.com .. 5205_0409c.pdf</description>
 <text x="3.81" y="-7.62" size="2.0828" layer="97" ratio="6" rot="SR0">V-</text>
 <text x="-5.08" y="3.81" size="2.0828" layer="95" rot="SR0">&gt;Name</text>
 <text x="-5.08" y="1.27" size="2.0828" layer="96" rot="SR0">&gt;Value</text>
+</symbol>
+<symbol name="ACS781LLRTR-100U-T">
+<wire x1="10.16" y1="-10.16" x2="10.16" y2="10.16" width="0.254" layer="94"/>
+<wire x1="10.16" y1="10.16" x2="-10.16" y2="10.16" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="10.16" x2="-10.16" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-10.16" x2="10.16" y2="-10.16" width="0.254" layer="94"/>
+<text x="-10.16" y="10.795" size="1.778" layer="95">&gt;NAME</text>
+<text x="-10.16" y="-12.7" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="VOUT" x="15.24" y="2.54" length="middle" direction="out" rot="R180"/>
+<pin name="VCC" x="15.24" y="7.62" length="middle" direction="pwr" rot="R180"/>
+<pin name="GND" x="15.24" y="-7.62" length="middle" direction="pwr" rot="R180"/>
+<pin name="IP+" x="-15.24" y="2.54" length="middle"/>
+<pin name="IP-" x="-15.24" y="0" length="middle"/>
+<pin name="NC" x="15.24" y="-5.08" length="middle" direction="pwr" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -5506,6 +5562,37 @@ Watchdog Timer : Yes</description>
 <attribute name="ROHS" value="Y" constant="no"/>
 <attribute name="TYPE" value="TYPE" constant="no"/>
 <attribute name="VALUE" value="Value" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ACS781LLRTR-100U-T" prefix="U">
+<description>Thermally Enhanced Smd Current Sensor Ic</description>
+<gates>
+<gate name="G$1" symbol="ACS781LLRTR-100U-T" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="XDCR_ACS781LLRTR-100U-T">
+<connects>
+<connect gate="G$1" pin="GND" pad="2"/>
+<connect gate="G$1" pin="IP+" pad="5"/>
+<connect gate="G$1" pin="IP-" pad="6"/>
+<connect gate="G$1" pin="NC" pad="4 7"/>
+<connect gate="G$1" pin="VCC" pad="1"/>
+<connect gate="G$1" pin="VOUT" pad="3"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:19857063/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="AVAILABILITY" value="Unavailable"/>
+<attribute name="DESCRIPTION" value=" Current Sensor 100A 1 Channel Hall Effect, Differential Unidirectional 7-PowerSMD Module "/>
+<attribute name="MFN" value="Allegro MicroSystems LLC"/>
+<attribute name="MPN" value="ACS781LLRTR-100B-T"/>
+<attribute name="OCTOPART_URL" value="https://octopart.com/acs781llrtr-100b-t-allegro+microsystems+llc-75430449?r=sp#" constant="no"/>
+<attribute name="PACKAGE" value="PowerSMD-7 Allegro MicroSystems LLC"/>
 </technology>
 </technologies>
 </device>
