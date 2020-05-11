@@ -3776,137 +3776,137 @@
 <wire x1="8.8" y1="15.2435" x2="-8.8" y2="15.2435" width="0.1" layer="20"/>
 <wire x1="-8.8" y1="15.2435" x2="-17.6" y2="0" width="0.1" layer="20"/>
 <wire x1="-17.6" y1="0" x2="-8.8" y2="-15.2435" width="0.1" layer="20"/>
-<smd name="PAD_PU7" x="9.4" y="16.28" dx="1" dy="1" layer="1" roundness="100" rot="R180" cream="no"/>
+<smd name="PAD_PU7" x="9.2" y="15.9335" dx="1" dy="1" layer="1" roundness="100" rot="R180" cream="no"/>
 <polygon width="0.1" layer="1">
-<vertex x="7.1" y="15.59" curve="-240"/>
-<vertex x="9.95" y="13.94"/>
-<vertex x="9" y="15.59"/>
+<vertex x="6.9" y="15.2435" curve="-240"/>
+<vertex x="9.75" y="13.5935"/>
+<vertex x="8.8" y="15.2435"/>
 </polygon>
-<smd name="PAD_PD7" x="9.4" y="16.28" dx="1" dy="1" layer="16" roundness="100" rot="R180" cream="no"/>
+<smd name="PAD_PD7" x="9.2" y="15.9335" dx="1" dy="1" layer="16" roundness="100" rot="R180" cream="no"/>
 <polygon width="0.1" layer="16">
-<vertex x="7.1" y="15.59" curve="-240"/>
-<vertex x="9.95" y="13.94"/>
-<vertex x="9" y="15.59"/>
+<vertex x="6.9" y="15.2435" curve="-240"/>
+<vertex x="9.75" y="13.5935"/>
+<vertex x="8.8" y="15.2435"/>
 </polygon>
 <polygon width="0.1" layer="29">
-<vertex x="7.1" y="15.59" curve="-240"/>
-<vertex x="9.95" y="13.94"/>
-<vertex x="9" y="15.59"/>
+<vertex x="6.9" y="15.2435" curve="-240"/>
+<vertex x="9.75" y="13.5935"/>
+<vertex x="8.8" y="15.2435"/>
 </polygon>
 <polygon width="0.1" layer="30">
-<vertex x="7.1" y="15.59" curve="-240"/>
-<vertex x="9.95" y="13.94"/>
-<vertex x="9" y="15.59"/>
+<vertex x="6.9" y="15.2435" curve="-240"/>
+<vertex x="9.75" y="13.5935"/>
+<vertex x="8.8" y="15.2435"/>
 </polygon>
-<smd name="PAD_PU8" x="18.8" y="0" dx="1" dy="1" layer="1" roundness="100" rot="R180" cream="no"/>
+<smd name="PAD_PU8" x="18.4" y="0" dx="1" dy="1" layer="1" roundness="100" rot="R180" cream="no"/>
 <polygon width="0.1" layer="1">
-<vertex x="17.05" y="-1.65" curve="240"/>
-<vertex x="17.05" y="1.65"/>
-<vertex x="18" y="0"/>
+<vertex x="16.65" y="-1.65" curve="240"/>
+<vertex x="16.65" y="1.65"/>
+<vertex x="17.6" y="0"/>
 </polygon>
-<smd name="PAD_PD8" x="18.8" y="0" dx="1" dy="1" layer="16" roundness="100" rot="R180" cream="no"/>
+<smd name="PAD_PD8" x="18.4" y="0" dx="1" dy="1" layer="16" roundness="100" rot="R180" cream="no"/>
 <polygon width="0.1" layer="16">
-<vertex x="17.05" y="-1.65" curve="240"/>
-<vertex x="17.05" y="1.65"/>
-<vertex x="18" y="0"/>
+<vertex x="16.65" y="-1.65" curve="240"/>
+<vertex x="16.65" y="1.65"/>
+<vertex x="17.6" y="0"/>
 </polygon>
 <polygon width="0.1" layer="29">
-<vertex x="17.05" y="-1.65" curve="240"/>
-<vertex x="17.05" y="1.65"/>
-<vertex x="18" y="0"/>
+<vertex x="16.65" y="-1.65" curve="240"/>
+<vertex x="16.65" y="1.65"/>
+<vertex x="17.6" y="0"/>
 </polygon>
 <polygon width="0.1" layer="30">
-<vertex x="17.05" y="-1.65" curve="240"/>
-<vertex x="17.05" y="1.65"/>
-<vertex x="18" y="0"/>
+<vertex x="16.65" y="-1.65" curve="240"/>
+<vertex x="16.65" y="1.65"/>
+<vertex x="17.6" y="0"/>
 </polygon>
-<smd name="PAD_PU9" x="9.4" y="-16.28" dx="1" dy="1" layer="1" roundness="100" rot="R180" cream="no"/>
+<smd name="PAD_PU9" x="9.2" y="-15.9335" dx="1" dy="1" layer="1" roundness="100" rot="R180" cream="no"/>
 <polygon width="0.1" layer="1">
-<vertex x="9.95" y="-13.94" curve="-240"/>
-<vertex x="7.1" y="-15.59"/>
-<vertex x="9" y="-15.59"/>
+<vertex x="9.75" y="-13.5935" curve="-240"/>
+<vertex x="6.9" y="-15.2435"/>
+<vertex x="8.8" y="-15.2435"/>
 </polygon>
-<smd name="PAD_PD9" x="9.4" y="-16.28" dx="1" dy="1" layer="16" roundness="100" rot="R180" cream="no"/>
+<smd name="PAD_PD9" x="9.2" y="-15.9335" dx="1" dy="1" layer="16" roundness="100" rot="R180" cream="no"/>
 <polygon width="0.1" layer="16">
-<vertex x="9.95" y="-13.94" curve="-240"/>
-<vertex x="7.1" y="-15.59"/>
-<vertex x="9" y="-15.59"/>
+<vertex x="9.75" y="-13.5935" curve="-240"/>
+<vertex x="6.9" y="-15.2435"/>
+<vertex x="8.8" y="-15.2435"/>
 </polygon>
 <polygon width="0.1" layer="29">
-<vertex x="9.95" y="-13.94" curve="-240"/>
-<vertex x="7.1" y="-15.59"/>
-<vertex x="9" y="-15.59"/>
+<vertex x="9.75" y="-13.5935" curve="-240"/>
+<vertex x="6.9" y="-15.2435"/>
+<vertex x="8.8" y="-15.2435"/>
 </polygon>
 <polygon width="0.1" layer="30">
-<vertex x="9.95" y="-13.94" curve="-240"/>
-<vertex x="7.1" y="-15.59"/>
-<vertex x="9" y="-15.59"/>
+<vertex x="9.75" y="-13.5935" curve="-240"/>
+<vertex x="6.9" y="-15.2435"/>
+<vertex x="8.8" y="-15.2435"/>
 </polygon>
-<smd name="PAD_PU10" x="-9.4" y="-16.28" dx="1" dy="1" layer="1" roundness="100" rot="R180" cream="no"/>
+<smd name="PAD_PU10" x="-9.2" y="-15.9335" dx="1" dy="1" layer="1" roundness="100" rot="R180" cream="no"/>
 <polygon width="0.1" layer="1">
-<vertex x="-9.95" y="-13.94" curve="240"/>
-<vertex x="-7.1" y="-15.59"/>
-<vertex x="-9" y="-15.59"/>
+<vertex x="-9.75" y="-13.5935" curve="240"/>
+<vertex x="-6.9" y="-15.2435"/>
+<vertex x="-8.8" y="-15.2435"/>
 </polygon>
-<smd name="PAD_PD10" x="-9.4" y="-16.28" dx="1" dy="1" layer="16" roundness="100" rot="R180" cream="no"/>
+<smd name="PAD_PD10" x="-9.2" y="-15.9335" dx="1" dy="1" layer="16" roundness="100" rot="R180" cream="no"/>
 <polygon width="0.1" layer="16">
-<vertex x="-9.95" y="-13.94" curve="240"/>
-<vertex x="-7.1" y="-15.59"/>
-<vertex x="-9" y="-15.59"/>
+<vertex x="-9.75" y="-13.5935" curve="240"/>
+<vertex x="-6.9" y="-15.2435"/>
+<vertex x="-8.8" y="-15.2435"/>
 </polygon>
 <polygon width="0.1" layer="29">
-<vertex x="-9.95" y="-13.94" curve="240"/>
-<vertex x="-7.1" y="-15.59"/>
-<vertex x="-9" y="-15.59"/>
+<vertex x="-9.75" y="-13.5935" curve="240"/>
+<vertex x="-6.9" y="-15.2435"/>
+<vertex x="-8.8" y="-15.2435"/>
 </polygon>
 <polygon width="0.1" layer="30">
-<vertex x="-9.95" y="-13.94" curve="240"/>
-<vertex x="-7.1" y="-15.59"/>
-<vertex x="-9" y="-15.59"/>
+<vertex x="-9.75" y="-13.5935" curve="240"/>
+<vertex x="-6.9" y="-15.2435"/>
+<vertex x="-8.8" y="-15.2435"/>
 </polygon>
-<smd name="PAD_PU11" x="-18.8" y="0" dx="1" dy="1" layer="1" roundness="100" rot="R180" cream="no"/>
+<smd name="PAD_PU11" x="-18.4" y="0" dx="1" dy="1" layer="1" roundness="100" rot="R180" cream="no"/>
 <polygon width="0.1" layer="1">
-<vertex x="-17.05" y="-1.65" curve="-240"/>
-<vertex x="-17.05" y="1.65"/>
-<vertex x="-18" y="0"/>
+<vertex x="-16.65" y="-1.65" curve="-240"/>
+<vertex x="-16.65" y="1.65"/>
+<vertex x="-17.6" y="0"/>
 </polygon>
-<smd name="PAD_PD11" x="-18.8" y="0" dx="1" dy="1" layer="16" roundness="100" rot="R180" cream="no"/>
+<smd name="PAD_PD11" x="-18.4" y="0" dx="1" dy="1" layer="16" roundness="100" rot="R180" cream="no"/>
 <polygon width="0.1" layer="16">
-<vertex x="-17.05" y="-1.65" curve="-240"/>
-<vertex x="-17.05" y="1.65"/>
-<vertex x="-18" y="0"/>
+<vertex x="-16.65" y="-1.65" curve="-240"/>
+<vertex x="-16.65" y="1.65"/>
+<vertex x="-17.6" y="0"/>
 </polygon>
 <polygon width="0.1" layer="29">
-<vertex x="-17.05" y="-1.65" curve="-240"/>
-<vertex x="-17.05" y="1.65"/>
-<vertex x="-18" y="0"/>
+<vertex x="-16.65" y="-1.65" curve="-240"/>
+<vertex x="-16.65" y="1.65"/>
+<vertex x="-17.6" y="0"/>
 </polygon>
 <polygon width="0.1" layer="30">
-<vertex x="-17.05" y="-1.65" curve="-240"/>
-<vertex x="-17.05" y="1.65"/>
-<vertex x="-18" y="0"/>
+<vertex x="-16.65" y="-1.65" curve="-240"/>
+<vertex x="-16.65" y="1.65"/>
+<vertex x="-17.6" y="0"/>
 </polygon>
-<smd name="PAD_PU12" x="-9.4" y="16.28" dx="1" dy="1" layer="1" roundness="100" rot="R180" cream="no"/>
+<smd name="PAD_PU12" x="-9.2" y="15.9335" dx="1" dy="1" layer="1" roundness="100" rot="R180" cream="no"/>
 <polygon width="0.1" layer="1">
-<vertex x="-7.1" y="15.59" curve="240"/>
-<vertex x="-9.95" y="13.94"/>
-<vertex x="-9" y="15.59"/>
+<vertex x="-6.9" y="15.2435" curve="240"/>
+<vertex x="-9.75" y="13.5935"/>
+<vertex x="-8.8" y="15.2435"/>
 </polygon>
-<smd name="PAD_PD12" x="-9.4" y="16.28" dx="1" dy="1" layer="16" roundness="100" rot="R180" cream="no"/>
+<smd name="PAD_PD12" x="-9.2" y="15.9335" dx="1" dy="1" layer="16" roundness="100" rot="R180" cream="no"/>
 <polygon width="0.1" layer="16">
-<vertex x="-7.1" y="15.59" curve="240"/>
-<vertex x="-9.95" y="13.94"/>
-<vertex x="-9" y="15.59"/>
+<vertex x="-6.9" y="15.2435" curve="240"/>
+<vertex x="-9.75" y="13.5935"/>
+<vertex x="-8.8" y="15.2435"/>
 </polygon>
 <polygon width="0.1" layer="29">
-<vertex x="-7.1" y="15.59" curve="240"/>
-<vertex x="-9.95" y="13.94"/>
-<vertex x="-9" y="15.59"/>
+<vertex x="-6.9" y="15.2435" curve="240"/>
+<vertex x="-9.75" y="13.5935"/>
+<vertex x="-8.8" y="15.2435"/>
 </polygon>
 <polygon width="0.1" layer="30">
-<vertex x="-7.1" y="15.59" curve="240"/>
-<vertex x="-9.95" y="13.94"/>
-<vertex x="-9" y="15.59"/>
+<vertex x="-6.9" y="15.2435" curve="240"/>
+<vertex x="-9.75" y="13.5935"/>
+<vertex x="-8.8" y="15.2435"/>
 </polygon>
 <smd name="PAD_PU1" x="14.1" y="8.13" dx="1" dy="1" layer="1" roundness="100" rot="R180" cream="no"/>
 <polygon width="0.1" layer="1">
@@ -3944,23 +3944,23 @@
 <vertex x="12.65" y="-9.26" curve="180"/>
 <vertex x="14.35" y="-6.31"/>
 </polygon>
-<smd name="PAD_PU3" x="0" y="-16.28" dx="1" dy="1" layer="1" roundness="100" rot="R180" cream="no"/>
+<smd name="PAD_PU3" x="0" y="-15.9335" dx="1" dy="1" layer="1" roundness="100" rot="R180" cream="no"/>
 <polygon width="0.1" layer="1">
-<vertex x="-2.7" y="-15.59" curve="180"/>
-<vertex x="2.7" y="-15.59"/>
+<vertex x="-2.7" y="-15.2435" curve="180"/>
+<vertex x="2.7" y="-15.2435"/>
 </polygon>
-<smd name="PAD_PD3" x="0" y="-16.28" dx="1" dy="1" layer="16" roundness="100" rot="R180" cream="no"/>
+<smd name="PAD_PD3" x="0" y="-15.9335" dx="1" dy="1" layer="16" roundness="100" rot="R180" cream="no"/>
 <polygon width="0.1" layer="16">
-<vertex x="-2.7" y="-15.59" curve="180"/>
-<vertex x="2.7" y="-15.59"/>
+<vertex x="-2.7" y="-15.2435" curve="180"/>
+<vertex x="2.7" y="-15.2435"/>
 </polygon>
 <polygon width="0.1" layer="29">
-<vertex x="-1.7" y="-15.59" curve="180"/>
-<vertex x="1.7" y="-15.59"/>
+<vertex x="-1.7" y="-15.2435" curve="180"/>
+<vertex x="1.7" y="-15.2435"/>
 </polygon>
 <polygon width="0.1" layer="30">
-<vertex x="-1.7" y="-15.59" curve="180"/>
-<vertex x="1.7" y="-15.59"/>
+<vertex x="-1.7" y="-15.2435" curve="180"/>
+<vertex x="1.7" y="-15.2435"/>
 </polygon>
 <smd name="PAD_PU4" x="-14.1" y="-8.15" dx="1" dy="1" layer="1" roundness="100" rot="R180" cream="no"/>
 <polygon width="0.1" layer="1">
@@ -3998,23 +3998,23 @@
 <vertex x="-14.35" y="6.31" curve="-180"/>
 <vertex x="-12.65" y="9.26"/>
 </polygon>
-<smd name="PAD_PU6" x="0" y="16.28" dx="1" dy="1" layer="1" roundness="100" rot="R180" cream="no"/>
+<smd name="PAD_PU6" x="0" y="15.9335" dx="1" dy="1" layer="1" roundness="100" rot="R180" cream="no"/>
 <polygon width="0.1" layer="1">
-<vertex x="-2.7" y="15.59" curve="-180"/>
-<vertex x="2.7" y="15.59"/>
+<vertex x="-2.7" y="15.2435" curve="-180"/>
+<vertex x="2.7" y="15.2435"/>
 </polygon>
-<smd name="PAD_PD6" x="0" y="16.28" dx="1" dy="1" layer="16" roundness="100" rot="R180" cream="no"/>
+<smd name="PAD_PD6" x="0" y="15.9335" dx="1" dy="1" layer="16" roundness="100" rot="R180" cream="no"/>
 <polygon width="0.1" layer="16">
-<vertex x="-2.7" y="15.59" curve="-180"/>
-<vertex x="2.7" y="15.59"/>
+<vertex x="-2.7" y="15.2435" curve="-180"/>
+<vertex x="2.7" y="15.2435"/>
 </polygon>
 <polygon width="0.1" layer="29">
-<vertex x="-1.7" y="15.59" curve="-180"/>
-<vertex x="1.7" y="15.59"/>
+<vertex x="-1.7" y="15.2435" curve="-180"/>
+<vertex x="1.7" y="15.2435"/>
 </polygon>
 <polygon width="0.1" layer="30">
-<vertex x="-1.7" y="15.59" curve="-180"/>
-<vertex x="1.7" y="15.59"/>
+<vertex x="-1.7" y="15.2435" curve="-180"/>
+<vertex x="1.7" y="15.2435"/>
 </polygon>
 </package>
 <package name="HEXABIT_17.32_X2_POWER_ONLY">
